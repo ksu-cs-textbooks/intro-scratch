@@ -14,15 +14,35 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 		
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome :: Hugo Starter</title>
-    <link>https://textbooks.cs.ksu.edu/hugo-starter/01-introduction/01-welcome/</link>
-    <description>Lorem Ipsum.</description>
+    <title>Welcome :: Introduction to Scratch</title>
+    <link>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/01-welcome/</link>
+    <description>This book is intended for educators wanting to learn Scratch, a pedagogical programming language and multimedia programming environment developed at MIT to help anyone learn the basic concepts and skills of computer science. Scratch is currently in its third version, and can be used both online or as a desktop application. The online version can be reached at https://scratch.mit.edu, and can be accessed through your browser on any internet-connected computer. If you set up an account, your work will be stored in the cloud, and you can return to it at any time, from any machine you log in with.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://textbooks.cs.ksu.edu/hugo-starter/01-introduction/01-welcome/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/01-welcome/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

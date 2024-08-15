@@ -42,18 +42,32 @@
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.128.0">
     <meta name="generator" content="Relearn 6.0.0">
-    <meta name="description" content="">
+    <meta name="description" content="Programming is essentially writing a set of instructions for the computer to carry out. These instructions are part of a programming language that has a well-defined syntax and grammar, and is in many ways similar to a human langauge (albeit with a much more limited vocabulary). For example, here is a program written in LOGO that moves a robot in a rectangle:
+forward 100 right 90 forward 100 right 90 forward 100 right 90 forward 100However, a computer can only interpret instructions that conform exactly to the syntax and the grammar of the language.">
     <meta name="author" content="Nathan Bean">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Tags :: Introduction to Scratch">
-    <meta property="og:url" content="https://textbooks.cs.ksu.edu/intro-scratch/tags/">
+    <meta name="twitter:title" content="Block-Based Programming :: Introduction to Scratch">
+    <meta name="twitter:description" content="Programming is essentially writing a set of instructions for the computer to carry out. These instructions are part of a programming language that has a well-defined syntax and grammar, and is in many ways similar to a human langauge (albeit with a much more limited vocabulary). For example, here is a program written in LOGO that moves a robot in a rectangle:
+forward 100 right 90 forward 100 right 90 forward 100 right 90 forward 100However, a computer can only interpret instructions that conform exactly to the syntax and the grammar of the language.">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/04-programming/">
     <meta property="og:site_name" content="Introduction to Scratch">
-    <meta property="og:title" content="Tags :: Introduction to Scratch">
+    <meta property="og:title" content="Block-Based Programming :: Introduction to Scratch">
+    <meta property="og:description" content="Programming is essentially writing a set of instructions for the computer to carry out. These instructions are part of a programming language that has a well-defined syntax and grammar, and is in many ways similar to a human langauge (albeit with a much more limited vocabulary). For example, here is a program written in LOGO that moves a robot in a rectangle:
+forward 100 right 90 forward 100 right 90 forward 100 right 90 forward 100However, a computer can only interpret instructions that conform exactly to the syntax and the grammar of the language.">
     <meta property="og:locale" content="en-us">
-    <meta property="og:type" content="website">
-    <meta itemprop="name" content="Tags :: Introduction to Scratch">
-    <title>Tags :: Introduction to Scratch</title>
-    <link href="/intro-scratch/tags/index.xml" rel="alternate" type="application/rss+xml" title="Tags :: Introduction to Scratch">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="Introduction">
+    <meta property="article:modified_time" content="2024-08-15T14:03:40-05:00">
+    <meta itemprop="name" content="Block-Based Programming :: Introduction to Scratch">
+    <meta itemprop="description" content="Programming is essentially writing a set of instructions for the computer to carry out. These instructions are part of a programming language that has a well-defined syntax and grammar, and is in many ways similar to a human langauge (albeit with a much more limited vocabulary). For example, here is a program written in LOGO that moves a robot in a rectangle:
+forward 100 right 90 forward 100 right 90 forward 100 right 90 forward 100However, a computer can only interpret instructions that conform exactly to the syntax and the grammar of the language.">
+    <meta itemprop="dateModified" content="2024-08-15T14:03:40-05:00">
+    <meta itemprop="wordCount" content="368">
+    <title>Block-Based Programming :: Introduction to Scratch</title>
+    <link href="/intro-scratch/01-introduction/04-programming/index.xml" rel="alternate" type="application/rss+xml" title="Block-Based Programming :: Introduction to Scratch">
+    <link href="/intro-scratch/01-introduction/04-programming/index.print.html" rel="alternate" type="text/html" title="Block-Based Programming :: Introduction to Scratch">
+    <link href="/intro-scratch/01-introduction/04-programming/tele.html" rel="alternate" type="text/html" title="Block-Based Programming :: Introduction to Scratch">
+    <link href="/intro-scratch/01-introduction/04-programming/embed.html" rel="alternate" type="text/html" title="Block-Based Programming :: Introduction to Scratch">
     <link href="/intro-scratch/css/fontawesome-all.min.css?1723748642" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/intro-scratch/css/fontawesome-all.min.css?1723748642" rel="stylesheet"></noscript>
     <link href="/intro-scratch/css/nucleus.css?1723748642" rel="stylesheet">
     <link href="/intro-scratch/css/auto-complete.css?1723748642" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/intro-scratch/css/auto-complete.css?1723748642" rel="stylesheet"></noscript>
@@ -67,8 +81,8 @@
     <script src="/intro-scratch/js/variant.js?1723748642"></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.relBasePath='..';
-      window.relearn.relBaseUri='..\/..';
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
       window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/intro-scratch';
       window.index_js_url="/intro-scratch/index.search.js";
       // variant stuff
@@ -86,7 +100,7 @@
     
     <link href="/intro-scratch/css/custom.css?1723748642" rel="stylesheet">
   </head>
-  <body class="mobile-support html disableInlineCopyToClipboard" data-url="/intro-scratch/tags/">
+  <body class="mobile-support html disableInlineCopyToClipboard" data-url="/intro-scratch/01-introduction/04-programming/">
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
       <nav id="R-topbar">
@@ -97,24 +111,32 @@
             </div>
             <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
               <div class="topbar-content">
-                <div class="topbar-content-wrapper">
-<nav class="TableOfContents"></nav>
+                <div class="topbar-content-wrapper"> 
                 </div>
               </div>
             </div>
           </div>
           <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
-            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Tags</span><meta itemprop="position" content="1"></li>
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/intro-scratch/01-introduction/"><span itemprop="name">Introduction</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Block-Based Programming</span><meta itemprop="position" content="2"></li>
           </ol>
           <div class="topbar-area topbar-area-end" data-area="end">
-            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/intro-scratch/" title="Introduction to Scratch (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/hugo-starter/edit/main/content/01-introduction/04-programming.md" target="_blank" title="Edit (CTRL&#43;ALT&#43;w)"><i class="fa-fw fas fa-pen"></i></a>
             </div>
-            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><span class="topbar-control"><i class="fa-fw fas fa-chevron-right"></i></span>
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/intro-scratch/01-introduction/04-programming/index.print.html" title="Print whole chapter (CTRL&#43;ALT&#43;p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/intro-scratch/01-introduction/03-ct-framework/" title="CT Framework (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/intro-scratch/01-introduction/05-scratch-editor/" title="Scratch Editor (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
             </div>
             <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
               <div class="topbar-content">
                 <div class="topbar-content-wrapper">
                   <div class="topbar-area topbar-area-more" data-area="more">
+            <div class="topbar-button topbar-button-embed" data-content-empty="disable" data-width-s="area-more" data-width-m="area-more" data-width-l="area-more"><a class="topbar-control" href="/intro-scratch/01-introduction/04-programming/embed.html" title="Embeddable Version"><i class="fa-fw fas fa-expand-arrows-alt"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-tele" data-content-empty="disable" data-width-s="area-more" data-width-m="area-more" data-width-l="area-more"><a class="topbar-control" href="/intro-scratch/01-introduction/04-programming/tele.html" title="Teleprompter View"><i class="fa-fw fas fa-tv"></i></a>
+            </div>
                   </div>
                 </div>
               </div>
@@ -125,17 +147,59 @@
       <div id="R-main-overlay"></div>
       <main id="R-body-inner" class="highlightable default" tabindex="-1">
         <div class="flex-block-wrapper">
-          <article>
+          <article class="default">
             <header class="headline">
             </header>
-<h1 id="tags">Tags</h1>
+
+<h1 id="block-based-programming">Block-Based Programming</h1>
+
+<p>Programming is essentially writing a set of instructions for the computer to carry out. These instructions are part of a programming language that has a well-defined syntax and grammar, and is in many ways similar to a human langauge (albeit with a much more limited vocabulary). For example, here is a program written in LOGO that moves a robot in a rectangle:</p>
+<div class="highlight"><pre tabindex="0"><code>forward 100
+right 90
+forward 100
+right 90
+forward 100
+right 90
+forward 100</code></pre></div><p>However, a computer can only interpret instructions that conform <em>exactly</em> to the syntax and the grammar of the language. Thus, the following program would fail to work:</p>
+<div class="highlight"><pre tabindex="0"><code>Forward 100
+Right 90
+Forward 100
+Right 90
+Forward 100
+Right 90
+Forward 100</code></pre></div><p>Can you spot the problem?
+
+<div class="expand">
+    <input type="checkbox" id="R-expand-59994b9cbe5c3e06a21ca0d55e8f3500" aria-controls="R-expandcontent-59994b9cbe5c3e06a21ca0d55e8f3500" >
+    <label class="expand-label" for="R-expand-59994b9cbe5c3e06a21ca0d55e8f3500" >
+        <i class="fa-fw fas fa-chevron-down"></i>
+        <i class="fa-fw fas fa-chevron-right"></i>
+        answer&hellip;
+    </label>
+    <div id="R-expandcontent-59994b9cbe5c3e06a21ca0d55e8f3500" class="expand-content">
+<p>
+LOGO does not recongize the capitialized <code>forward</code> and <code>right</code> commands - it expects lowercase!</div>
+</div></p>
+<p>Learning to program therefore involves several challenges - we must learn the syntax and grammar of a language, and a new way of thinking. This challenge is compounded by the need to get syntax and grammar exactly correct.  Unlike a language arts teacher, who can see past typos and mispellings to understand our intent, a computer simply cannot.</p>
+<p>Scratch and other block-based programming languages seek to make this learning process easier by reducing the cognitive load involved. In a block-based language, instead of typing code, blocks representing the code are dragged around the screen and &ldquo;snap&rdquo; together. This snapping only occurs when the block is in a location that is appropriate for the language, effectively making it impossible for the programmer to make syntax errors or mistype commands.  This allows the learner to focus more on the logic of the program and how the computer actually interprets the code that we write.</p>
+<p>That last bit, understanding how the computer processes our code, is an important part of developing our computer science skills.  We sometimes call this having a &ldquo;mental model&rdquo; of the computer. If we have a good mental model, we can understand what a program does even without running it. So in this course, we&rsquo;ll introduce not only the blocks that make up the Scratch language, but also aspects of how the Scratch Virtual Machine (its computer) makes sense of those blocks.</p>
 
             <footer class="footline">
+              
+              
+              
+              
             </footer>
-          </article>        </div>
+          </article>
+        </div>
       </main>
     
 <div class="git-footer">
+  <p class="theme-version-footer">6.0.0</p>
+  <p>Last modified by: 
+              <i class='fas fa-user'></i> Nathan Bean
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/hugo-starter/commit/fb83bc6685c21f126103915c4df9ef94496f7277">Aug 15, 2024</a>
+  </p>
   </div>
   
     
@@ -176,11 +240,11 @@
       <div id="R-content-wrapper" class="highlightable">
         <div id="R-topics">
           <ul class="enlarge morespace collapsible-menu">
-          <li data-nav-id="/intro-scratch/01-introduction/" class=""><input type="checkbox" id="R-section-97af81d8468c589e658b8950871073d8" aria-controls="R-subsections-97af81d8468c589e658b8950871073d8"><label for="R-section-97af81d8468c589e658b8950871073d8"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Introduction</span></label><a class="padding" href="/intro-scratch/01-introduction/"><b>1. </b>Introduction</a><ul id="R-subsections-97af81d8468c589e658b8950871073d8" class="morespace collapsible-menu">
+          <li data-nav-id="/intro-scratch/01-introduction/" class="parent "><input type="checkbox" id="R-section-97af81d8468c589e658b8950871073d8" aria-controls="R-subsections-97af81d8468c589e658b8950871073d8" checked><label for="R-section-97af81d8468c589e658b8950871073d8"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Introduction</span></label><a class="padding" href="/intro-scratch/01-introduction/"><b>1. </b>Introduction</a><ul id="R-subsections-97af81d8468c589e658b8950871073d8" class="morespace collapsible-menu">
           <li data-nav-id="/intro-scratch/01-introduction/01-welcome/" class=""><a class="padding" href="/intro-scratch/01-introduction/01-welcome/">1. Welcome</a></li>
           <li data-nav-id="/intro-scratch/01-introduction/02-computational-thinking/" class=""><a class="padding" href="/intro-scratch/01-introduction/02-computational-thinking/">2. Computational Thinking</a></li>
           <li data-nav-id="/intro-scratch/01-introduction/03-ct-framework/" class=""><a class="padding" href="/intro-scratch/01-introduction/03-ct-framework/">3. CT Framework</a></li>
-          <li data-nav-id="/intro-scratch/01-introduction/04-programming/" class=""><a class="padding" href="/intro-scratch/01-introduction/04-programming/">4. Block-Based Programming</a></li>
+          <li data-nav-id="/intro-scratch/01-introduction/04-programming/" class="active"><a class="padding" href="/intro-scratch/01-introduction/04-programming/">4. Block-Based Programming</a></li>
           <li data-nav-id="/intro-scratch/01-introduction/05-scratch-editor/" class=""><a class="padding" href="/intro-scratch/01-introduction/05-scratch-editor/">5. Scratch Editor</a></li></ul></li>
           </ul>
         </div>
@@ -196,7 +260,7 @@
                   <div class="control-style">
                     <label class="a11y-only" for="R-select-language">Language</label>
                     <select id="R-select-language" onchange="location = this.querySelector( this.value ).dataset.url;">
-                      <option id="R-select-language-en" value="#R-select-language-en" data-url="/intro-scratch/tags/" lang="en-us" selected></option>
+                      <option id="R-select-language-en" value="#R-select-language-en" data-url="/intro-scratch/01-introduction/04-programming/" lang="en-us" selected></option>
                     </select>
                   </div>
                   <div class="clear"></div>

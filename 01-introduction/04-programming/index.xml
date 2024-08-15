@@ -1,0 +1,48 @@
+
+
+
+
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Block-Based Programming :: Introduction to Scratch</title>
+    <link>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/04-programming/</link>
+    <description>Programming is essentially writing a set of instructions for the computer to carry out. These instructions are part of a programming language that has a well-defined syntax and grammar, and is in many ways similar to a human langauge (albeit with a much more limited vocabulary). For example, here is a program written in LOGO that moves a robot in a rectangle:&#xA;forward 100 right 90 forward 100 right 90 forward 100 right 90 forward 100However, a computer can only interpret instructions that conform exactly to the syntax and the grammar of the language.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/04-programming/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

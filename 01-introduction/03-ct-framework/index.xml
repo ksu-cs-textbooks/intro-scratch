@@ -1,0 +1,48 @@
+
+
+
+
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CT Framework :: Introduction to Scratch</title>
+    <link>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/03-ct-framework/</link>
+    <description>It is important to understand that different programming languages use different approaches to modeling computational processes carried out on a computer, much like different human languages use different ways of expressing ideas about the world. Thus, the expression of computational solutions you might build are heavily influcenced by the programming language you express them in. This also feeds into the problem-solving process (computational thinking), which will look different if you are using Scratch or if you are using Python, or any other language.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/03-ct-framework/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

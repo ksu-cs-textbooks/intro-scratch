@@ -1,0 +1,48 @@
+
+
+
+
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scratch Editor :: Introduction to Scratch</title>
+    <link>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/05-scratch-editor/</link>
+    <description>The Scratch editor consists of several parts, pictured below:&#xA;Stage Scratch is a multimedia programming environment, which means unlike most programming languages that write output to a text console, it displays its output graphically, as well as being able to play sounds through the computer’s speakers. The stage is where the program’s graphical output is displayed. This includes a background which can be changed (called the “Backdrop”), much like set dressing of a theatrical stage.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/05-scratch-editor/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

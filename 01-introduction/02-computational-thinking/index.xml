@@ -1,0 +1,48 @@
+
+
+
+
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computational Thinking :: Introduction to Scratch</title>
+    <link>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/02-computational-thinking/</link>
+    <description>In 2006, Jeanette Wing published a number of papers arguing Computational Thinking - problem-solving approaches utilizing the power of compututers - were increasingly a fundamental skill needed by all students. She built her case on the recognition of the transformative effect computing technology and computational approaches were having on all disciplines in the late 20th and early 21st century (and not just the STEM fields)1. This helped inspire a national push to incorporate computational thinking into K-12 education as a new fundamental skill.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/02-computational-thinking/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

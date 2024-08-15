@@ -14,22 +14,70 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 		
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Introduction :: Hugo Starter</title>
-    <link>https://textbooks.cs.ksu.edu/hugo-starter/01-introduction/</link>
+    <title>Introduction :: Introduction to Scratch</title>
+    <link>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/</link>
     <description>Lorem Ipsum.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://textbooks.cs.ksu.edu/hugo-starter/01-introduction/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome</title>
-      <link>https://textbooks.cs.ksu.edu/hugo-starter/01-introduction/01-welcome/</link>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/01-welcome/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://textbooks.cs.ksu.edu/hugo-starter/01-introduction/01-welcome/</guid>
-      <description>Lorem Ipsum.</description>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/01-welcome/</guid>
+      <description>This book is intended for educators wanting to learn Scratch, a pedagogical programming language and multimedia programming environment developed at MIT to help anyone learn the basic concepts and skills of computer science. Scratch is currently in its third version, and can be used both online or as a desktop application. The online version can be reached at https://scratch.mit.edu, and can be accessed through your browser on any internet-connected computer. If you set up an account, your work will be stored in the cloud, and you can return to it at any time, from any machine you log in with.</description>
+    </item>
+    <item>
+      <title>Computational Thinking</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/02-computational-thinking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/02-computational-thinking/</guid>
+      <description>In 2006, Jeanette Wing published a number of papers arguing Computational Thinking - problem-solving approaches utilizing the power of compututers - were increasingly a fundamental skill needed by all students. She built her case on the recognition of the transformative effect computing technology and computational approaches were having on all disciplines in the late 20th and early 21st century (and not just the STEM fields)1. This helped inspire a national push to incorporate computational thinking into K-12 education as a new fundamental skill.</description>
+    </item>
+    <item>
+      <title>CT Framework</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/03-ct-framework/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/03-ct-framework/</guid>
+      <description>It is important to understand that different programming languages use different approaches to modeling computational processes carried out on a computer, much like different human languages use different ways of expressing ideas about the world. Thus, the expression of computational solutions you might build are heavily influcenced by the programming language you express them in. This also feeds into the problem-solving process (computational thinking), which will look different if you are using Scratch or if you are using Python, or any other language.</description>
+    </item>
+    <item>
+      <title>Block-Based Programming</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/04-programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/04-programming/</guid>
+      <description>Programming is essentially writing a set of instructions for the computer to carry out. These instructions are part of a programming language that has a well-defined syntax and grammar, and is in many ways similar to a human langauge (albeit with a much more limited vocabulary). For example, here is a program written in LOGO that moves a robot in a rectangle:&#xA;forward 100 right 90 forward 100 right 90 forward 100 right 90 forward 100However, a computer can only interpret instructions that conform exactly to the syntax and the grammar of the language.</description>
+    </item>
+    <item>
+      <title>Scratch Editor</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/05-scratch-editor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/05-scratch-editor/</guid>
+      <description>The Scratch editor consists of several parts, pictured below:&#xA;Stage Scratch is a multimedia programming environment, which means unlike most programming languages that write output to a text console, it displays its output graphically, as well as being able to play sounds through the computer’s speakers. The stage is where the program’s graphical output is displayed. This includes a background which can be changed (called the “Backdrop”), much like set dressing of a theatrical stage.</description>
     </item>
   </channel>
 </rss>
