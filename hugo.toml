@@ -1,11 +1,11 @@
 # Base URL where the site will be hosted
 # TODO changeme
-baseURL = "https://textbooks.cs.ksu.edu/hugo-starter"
+baseURL = "https://textbooks.cs.ksu.edu/intro-scratch"
 # Default language for the site
 languageCode = "en-us"
 # Site Title
 # TODO changeme
-title = "Hugo Starter"
+title = "Introduction to Scratch"
 # This setting is deprecated and should be turned off
 canonifyURLs = false
 # Allow relative URLs (not for use with subfolders)
@@ -44,7 +44,7 @@ cleanDestinationDir = true
   # cards.
   # You can also set `author.email` if you want to publish this information.
   # TODO changeme
-  author.name = "Russell Feldhausen"
+  author.name = "Nathan Bean"
 
   # The social media image of your site.
   # Default: not set

@@ -1,6 +1,6 @@
 +++
 archetype = "home"
-title = "Hugo Starter"
+title = "Introduction to Scratch"
 +++
 
-Lorem Ipsum.
+This textbook is used by CC 111, CC 711, and the Cyber Pipeline outreach program to teach basic Scratch programming to first-time programmers.
