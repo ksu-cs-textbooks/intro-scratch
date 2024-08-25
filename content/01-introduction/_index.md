@@ -7,4 +7,4 @@ weight = 1
 ordinal = "1"
 +++
 
-Lorem Ipsum.
+An overview of the Scratch programming language and environment
