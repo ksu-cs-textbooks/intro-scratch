@@ -1,0 +1,226 @@
+
+
+
+
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.128.0">
+    <meta name="generator" content="Relearn 6.0.0">
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+    <meta name="description" content="Most programming languages have multiple ways to represent numbers. In particular, they make a distinction between (integers in mathematics) and those with a decimal point (called rational numbers in mathematics). The reason is that way we encode these values in binary is different. While we don’t really need to understand the full details of this encoding, we do need to understand their implications
+Integers In mathematics, integers are simply whole numbers - ones without a fractional part, i.">
+    <meta name="author" content="Nathan Bean">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="Most programming languages have multiple ways to represent numbers. In particular, they make a distinction between (integers in mathematics) and those with a decimal point (called rational numbers in mathematics). The reason is that way we encode these values in binary is different. While we don’t really need to understand the full details of this encoding, we do need to understand their implications
+Integers In mathematics, integers are simply whole numbers - ones without a fractional part, i.">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/intro-scratch/05-extra/number-representation/embed.html">
+    <meta property="og:site_name" content="Introduction to Scratch">
+    <meta property="og:description" content="Most programming languages have multiple ways to represent numbers. In particular, they make a distinction between (integers in mathematics) and those with a decimal point (called rational numbers in mathematics). The reason is that way we encode these values in binary is different. While we don’t really need to understand the full details of this encoding, we do need to understand their implications
+Integers In mathematics, integers are simply whole numbers - ones without a fractional part, i.">
+    <meta property="og:locale" content="en-us">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="">
+    <meta property="article:modified_time" content="2024-08-25T15:52:29-05:00">
+    <meta itemprop="description" content="Most programming languages have multiple ways to represent numbers. In particular, they make a distinction between (integers in mathematics) and those with a decimal point (called rational numbers in mathematics). The reason is that way we encode these values in binary is different. While we don’t really need to understand the full details of this encoding, we do need to understand their implications
+Integers In mathematics, integers are simply whole numbers - ones without a fractional part, i.">
+    <meta itemprop="dateModified" content="2024-08-25T15:52:29-05:00">
+    <meta itemprop="wordCount" content="539">
+    <title></title>
+    
+  <link href="/intro-scratch/css/fontawesome-all.min.css?1724619178" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/intro-scratch/css/fontawesome-all.min.css?1724619178" rel="stylesheet"></noscript>
+  <link href="/intro-scratch/css/nucleus.css?1724619178" rel="stylesheet">
+  <link href="/intro-scratch/css/auto-complete.css?1724619178" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/intro-scratch/css/auto-complete.css?1724619178" rel="stylesheet"></noscript>
+  <link href="/intro-scratch/css/perfect-scrollbar.min.css?1724619178" rel="stylesheet">
+  <link href="/intro-scratch/css/fonts.css?1724619178" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/intro-scratch/css/fonts.css?1724619178" rel="stylesheet"></noscript>
+  <link href="/intro-scratch/css/theme.css?1724619178" rel="stylesheet">
+  
+  
+  
+  <link href="/intro-scratch/css/theme-light-theme.css?1724619178" rel="stylesheet" id="R-variant-style">
+  <link href="/intro-scratch/css/chroma-relearn-light.css?1724619178" rel="stylesheet" id="R-variant-chroma-style">
+  <link href="/intro-scratch/css/variant.css?1724619178" rel="stylesheet">
+  <link href="/intro-scratch/css/print.css?1724619178" rel="stylesheet" media="print">
+  
+  
+  
+  <script>
+    window.relearn = window.relearn || {};
+    window.relearn.relBasePath='..\/..';
+    window.relearn.relBaseUri='..\/..\/..';
+    window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/intro-scratch';
+    window.index_js_url="/intro-scratch/index.search.js";
+    // variant stuff
+    window.variants && variants.init( [ 'light-theme' ] );
+    // translations
+    window.T_Copy_to_clipboard = `Copy to clipboard`;
+    window.T_Copied_to_clipboard = `Copied to clipboard!`;
+    window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+    window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+    window.T_Reset_view = `Reset view`;
+    window.T_View_reset = `View reset!`;
+    window.T_No_results_found = `No results found for "{0}"`;
+    window.T_N_results_found = `{1} results found for "{0}"`;
+  </script>
+  
+  <link href="/intro-scratch/css/custom.css?1724619178" rel="stylesheet">
+    
+  </head>
+  <body class="mobile-support embed disableInlineCopyToClipboard" data-url="/intro-scratch/05-extra/number-representation/embed.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      
+      
+      
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+    
+    
+    
+
+<p>Most programming languages have multiple ways to represent numbers. In particular, they make a distinction between (integers in mathematics) and those with a decimal point (called rational numbers in mathematics). The reason is that way we encode these values in binary is different. While we don&rsquo;t really need to understand the full details of this encoding, we do need to understand their implications</p>
+<h1 id="integers">Integers</h1>
+<p>In mathematics, integers are simply whole numbers - ones without a fractional part, i.e. (0, 1, 2, 3, 4). They can be negative or positive, and they go on to infinity and negative infinity, though we don&rsquo;t typically try to count that high.</p>
+<p>We can convert a base 10 number to base 2 pretty easily.  Let&rsquo;s count to 7:</p>
+<table>
+<thead>
+<tr>
+<th>Base 10</th>
+<th>Base 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>10</td>
+</tr>
+<tr>
+<td>3</td>
+<td>11</td>
+</tr>
+<tr>
+<td>4</td>
+<td>100</td>
+</tr>
+<tr>
+<td>5</td>
+<td>101</td>
+</tr>
+<tr>
+<td>6</td>
+<td>110</td>
+</tr>
+<tr>
+<td>7</td>
+<td>111</td>
+</tr>
+</tbody>
+</table>
+<p>Notice that to represent larger numbers, we need more digits? So for 0 and 1 we only needed one binary digit, for 2 and 3 we needed two binary digits, and for 4 through 7 we needed three binary digits. To represent 8, we need four.</p>
+<p>In fact, the maximum number we can represent in base 2 is determined by 2 to the power of the bits available, i.e. if we have 8 bits (binary digits), we can represent any number up to 255:</p>
+<p>$$
+2^8 = 256
+$$</p>
+<p>(Remember, we are also representing 0 in our 256 possible numbers).</p>
+<p>For a computer&rsquo;s central processing unit to effectively do calculations, it needs to have a set amount of bits it can work with. Most modern computers use either 32 or 64 bit processors, meaning the largest positive integer they could represent are $2^{32} = 4,294,967,296$ and $2^{64} = 18,446,744,073,709,551,616$ respectively. However, that is not quite true, as we reserve one of those bits to indicate if the integer is positive and negative, and a couple of the largest possible values are reserved to represent special values like <em>infinity</em> and <em>not a number</em>.</p>
+<p>We don&rsquo;t need to know all the exact details - just that an integer in any programming language will have a maximum and minimum possible value. If we think we might need a larger (or smaller) number than that, we&rsquo;ll need to use a different representation.</p>
+<h1 id="rational-numbers">Rational Numbers</h1>
+<p>In mathematics, Rational numbers are those that can be expressed as a fraction of two integers $p/q$ provided $q≠0$.</p>
+<p>We typically represent these with a special binary encoding called <em>floating point</em> that uses one bit to represent if the number is positive or negative, some number of bits to represent the significant digits (the fraction), and a second number of bits to represent an exponent term used to determine where the decimal point should go. The representation is similar to scientific notation:</p>
+<p>$$
+\pm[fraction] \times 10^{[exponent]}
+$$</p>
+<p>This representation allows a very large range of numbers to be represented, at the cost of precision. Mixing very large and very small numbers in algebraic operations can exacerbate this loss of precision.</p>
+<p>There is an alternate representation, <em>fixed point</em>, which uses a similar strategy to integers, with an assumed location for the decimal point. It represents a much smaller range of numbers, but</p>
+<p>For most operations, we don&rsquo;t</p>
+
+            <footer class="footline">
+              
+              
+              
+              
+            </footer>
+          </article>
+</div>
+</main>
+</div>
+
+
+
+<script src="/intro-scratch/js/clipboard.min.js?1724619178" defer></script>
+<script src="/intro-scratch/js/perfect-scrollbar.min.js?1724619178" defer></script>
+<script src="/intro-scratch/js/theme.js?1724619178" defer></script>
+
+<script src="/intro-scratch/js/embed-iframe.js?1724619178" defer></script>
+</body>
+</html>

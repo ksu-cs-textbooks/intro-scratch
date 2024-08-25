@@ -1,0 +1,73 @@
+
+
+
+
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>https://textbooks.cs.ksu.edu/intro-scratch/05-extra/string-representation/</link>
+    <description>In programming terminology, strings are a sequence of characters like letters, digits, punctuation, and whitespace (spaces, tabs, and new lines).&#xA;Each character is represented by a number of bits. One of the most popular early string encodings, ASCII used 8 bits to represent each character. Thus, a capital A corresponded to the binary number 11011 (51 in base 10). With eight bits, we can represent 2⁸ possible values, or 256 characters.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/intro-scratch/05-extra/string-representation/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

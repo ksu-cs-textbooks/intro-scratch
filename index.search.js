@@ -34,15 +34,72 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 		
 var relearn_search_index = [
   {
     "breadcrumb": "",
-    "content": "Lorem Ipsum.",
-    "description": "Lorem Ipsum.",
+    "content": "An overview of the Scratch programming language and environment",
+    "description": "An overview of the Scratch programming language and environment",
     "tags": [],
     "title": "Introduction",
     "uri": "/intro-scratch/01-introduction/"
+  },
+  {
+    "breadcrumb": "",
+    "content": "An exploration of the blocks from which Scratch programs are built",
+    "description": "An exploration of the blocks from which Scratch programs are built",
+    "tags": [],
+    "title": "Scratch Blocks",
+    "uri": "/intro-scratch/02-blocks/"
+  },
+  {
+    "breadcrumb": "",
+    "content": "The term sequence in computational thinking refers to issuing one command after another, to be carried out in order. In Scratch, this is represented by a stack of blocks that have been snapped together. Each stack starts with a hat block (so called becuase it resembles a baseball cap) that identifies the conditions that will start the execution (the carrying out) of that sequences’s commands. You will learn more about hat blocks in the events chapter, but for now we’ll only use the ‘Green Flag Clicked’ block:\nThis particular block will start the execution of a stack of blocks beneath it when the Green Flag button on the stage is clicked (like the play button on a DVD player). Notice the tab projecting out of the bottom of the block? We can connect any block with a corresponding divot in its top. For example, we can connect a ‘Say’ block:\nAnd when we click the green flag, this script will play, making Scratch the Cat (or whichever sprite this code belongs to) say the phrase “Hello”:\nWe can add any number of blocks to a block sequence, and they will be executed one at a time. We could expand the previous example to be:\nAnd we might expect the result to look like this:\nBut if you create the above program in Scratch, you will only see the Scratch Cat speak phrase “I hope you enjoy learning to program”. Why?\nActually, Scratch is making Scratch the Cat say all three phrases, and doing so one after the next. But it carries out these instrucions as quickly as it can. That means that the phrases “Hello!” and “Welcome to Scratch” are displayed on-screen for exactly 1 frame each (about 1/60th of a second for most computers). This is too fast for the human eye and mind to catch, so it seems like Scratch is skipping to the last phrase.\nThis is one of the important aspects of learning to program - the computer’s understanding of our instructions is exacting, and does not necessarily line up with what we might expect if we gave the same instructions to another human being. We have to learn to adjust our understanding to how a computer operates to be able to write programs that do what we want.",
+    "description": "The term sequence in computational thinking refers to issuing one command after another, to be carried out in order. In Scratch, this is represented by a stack of blocks that have been snapped together. Each stack starts with a hat block (so called becuase it resembles a baseball cap) that identifies the conditions that will start the execution (the carrying out) of that sequences’s commands. You will learn more about hat blocks in the events chapter, but for now we’ll only use the ‘Green Flag Clicked’ block:",
+    "tags": [],
+    "title": "Block Sequences",
+    "uri": "/intro-scratch/05-extra/01-block-sequence/"
+  },
+  {
+    "breadcrumb": "Scratch Blocks",
+    "content": "As a block-based programming langauge, Scratch programs are built from snippets of code represented by blocks. These blocks have a quasi-puzzle piece shapes that helps indicate how they can fit together. Consider this example program that counts to ten:\nHere we see a number of different blocks snapped tightly together to form a complete, simple program. This chapter will indroduce the various blocks available in Scratch, as well as explain thier basic functionality and use.",
+    "description": "As a block-based programming langauge, Scratch programs are built from snippets of code represented by blocks. These blocks have a quasi-puzzle piece shapes that helps indicate how they can fit together. Consider this example program that counts to ten:\nHere we see a number of different blocks snapped tightly together to form a complete, simple program. This chapter will indroduce the various blocks available in Scratch, as well as explain thier basic functionality and use.",
+    "tags": [],
+    "title": "Introduction",
+    "uri": "/intro-scratch/02-blocks/01-introduction/"
+  },
+  {
+    "breadcrumb": "Scratch Blocks \u003e Motion Blocks",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "move () steps",
+    "uri": "/intro-scratch/02-blocks/03-motion/01-move-steps/"
   },
   {
     "breadcrumb": "Introduction",
@@ -53,12 +110,36 @@ var relearn_search_index = [
     "uri": "/intro-scratch/01-introduction/01-welcome/"
   },
   {
+    "breadcrumb": "Scratch Blocks",
+    "content": "Scratch blocks come in several shapes, which help identify how they can snap together and are intended to be used:\nName Shape Use Hat Block First block in a stack of blocks, and identifies what event will start execution of the block stack Stack block The primary shape of block in a block stack, typically executes some kind of instruction Cap block Can only be used as the last block in a block stack as it ends the execution of the stack C block Also used in stacks, but allows for one or more stacks of blocks to be snapped inside that will be conditionally or repeatedly executed Reporter block Snaps into the input field of another block, providing a value for that block to use Boolean block Snaps into a boolean input field of another block, and provides a value of true or false ",
+    "description": "Scratch blocks come in several shapes, which help identify how they can snap together and are intended to be used:\nName Shape Use Hat Block First block in a stack of blocks, and identifies what event will start execution of the block stack Stack block The primary shape of block in a block stack, typically executes some kind of instruction Cap block Can only be used as the last block in a block stack as it ends the execution of the stack C block Also used in stacks, but allows for one or more stacks of blocks to be snapped inside that will be conditionally or repeatedly executed Reporter block Snaps into the input field of another block, providing a value for that block to use Boolean block Snaps into a boolean input field of another block, and provides a value of true or false ",
+    "tags": [],
+    "title": "Block Shapes",
+    "uri": "/intro-scratch/02-blocks/02-block-shapes/"
+  },
+  {
+    "breadcrumb": "",
+    "content": "The term sequence in computational thinking refers to issuing one command after another, to be carried out in order. In Scratch, this is represented by a stack of blocks that have been snapped together. Each stack starts with a hat block (so called becuase it resembles a baseball cap) that identifies the conditions that will start the execution (the carrying out) of that sequences’s commands. You will learn more about hat blocks in the events chapter, but for now we’ll only use the ‘Green Flag Clicked’ block:\nThis particular block will start the execution of a stack of blocks beneath it when the Green Flag button on the stage is clicked (like the play button on a DVD player). Notice the tab projecting out of the bottom of the block? We can connect any block with a corresponding divot in its top. For example, we can connect a ‘Say’ block:\nAnd when we click the green flag, this script will play, making Scratch the Cat (or whichever sprite this code belongs to) say the phrase “Hello”:\nWe can add any number of blocks to a block sequence, and they will be executed one at a time. We could expand the previous example to be:\nAnd we might expect the result to look like this:\nBut if you create the above program in Scratch, you will only see the Scratch Cat speak phrase “I hope you enjoy learning to program”. Why?\nActually, Scratch is making Scratch the Cat say all three phrases, and doing so one after the next. But it carries out these instrucions as quickly as it can. That means that the phrases “Hello!” and “Welcome to Scratch” are displayed on-screen for exactly 1 frame each (about 1/60th of a second for most computers). This is too fast for the human eye and mind to catch, so it seems like Scratch is skipping to the last phrase.\nThis is one of the important aspects of learning to program - the computer’s understanding of our instructions is exacting, and does not necessarily line up with what we might expect if we gave the same instructions to another human being. We have to learn to adjust our understanding to how a computer operates to be able to write programs that do what we want.",
+    "description": "The term sequence in computational thinking refers to issuing one command after another, to be carried out in order. In Scratch, this is represented by a stack of blocks that have been snapped together. Each stack starts with a hat block (so called becuase it resembles a baseball cap) that identifies the conditions that will start the execution (the carrying out) of that sequences’s commands. You will learn more about hat blocks in the events chapter, but for now we’ll only use the ‘Green Flag Clicked’ block:",
+    "tags": [],
+    "title": "Block Stacks",
+    "uri": "/intro-scratch/05-extra/02-block-stacks/"
+  },
+  {
     "breadcrumb": "Introduction",
     "content": "In 2006, Jeanette Wing published a number of papers arguing Computational Thinking - problem-solving approaches utilizing the power of compututers - were increasingly a fundamental skill needed by all students. She built her case on the recognition of the transformative effect computing technology and computational approaches were having on all disciplines in the late 20th and early 21st century (and not just the STEM fields)1. This helped inspire a national push to incorporate computational thinking into K-12 education as a new fundamental skill.\nBut what exactly is computational thinking? Essentially, it is solving problems like a computer scientist would. Typically this would mean studying a problem, then developing a program that can be run on a computer to solve it. Thus, computational thinking and programming are intractably linked, as one of the primary tools a computer scientist uses to solve problems is a programming language. But programming itself is not equivalent to computational thinking, no more than addition and subtraction are equivalent to mathematics, rather, programming is a tool utilized in computational thinking to express a problem-solving approach, much like addition and subtraction are used in mathematical equations. The ISTE and CSTA have developed an “Operational Definition of Computational Thinking for K-12 Education”2 that can be useful for an aspiring teacher:\nComputational thinking (CT) is a problem-solving process that includes (but is not limited to) the following characteristics:\nFormulating problems in a way that enables us to use a computer and other tools to help solve them. Logically organizing and analyzing data Representing data through abstractions such as models and simulations Automating solutions through algorithmic thinking (a series of ordered steps) Identifying, analyzing, and implementing possible solutions with the goal of achieving the most efficient and effective combination of steps and resources Generalizing and transferring this problem solving process to a wide variety of problems These skills are supported and enhanced by a number of dispositions or attitudes that are essential dimensions of CT. These dispositions or attitudes include:\nConfidence in dealing with complexity Persistence in working with difficult problems Tolerance for ambiguity The ability to deal with open ended problems The ability to communicate and work with others to achieve a common goal or solution Note that much of computational thinking is not specific to computer science - many are skills and dispositions used across multiple discipines. But an overreaching aspect of computational thinking is that how problems are formulated, data is organized, and models and simulations are represented are explicitly tied to the computer we are using to solve them.\nWing, Jeanette, “Computational Thinking”, Communications of the ACM, March 2006/Vol. 49, No. 3 ↩︎\nISTE and CSTA, 2011. “Operational Definition of Computational Thinking for K-12 Education” ↩︎",
     "description": "In 2006, Jeanette Wing published a number of papers arguing Computational Thinking - problem-solving approaches utilizing the power of compututers - were increasingly a fundamental skill needed by all students. She built her case on the recognition of the transformative effect computing technology and computational approaches were having on all disciplines in the late 20th and early 21st century (and not just the STEM fields)1. This helped inspire a national push to incorporate computational thinking into K-12 education as a new fundamental skill.",
     "tags": [],
     "title": "Computational Thinking",
     "uri": "/intro-scratch/01-introduction/02-computational-thinking/"
+  },
+  {
+    "breadcrumb": "Scratch Blocks",
+    "content": "Scratch blocks are further organized into color-coded categories based on what the block does. These categories appear at the left of the block palette, and are:\nCategory Color Purpose Motion Rotate the sprite and move it around the stage Looks Alter the appearance of the sprite Sound Play and apply affects to pre-recorded sounds Events Trigger execution of block stacks Control Control program flow in block stacks Sensing Blocks that determine details from the user and the program state Operators Perform operations on data Variables Get and set variable and list values My Blocks Custom, user-created blocks Additional block categories can be supplied by Scratch Extensions. These are marked by a custom icon.",
+    "description": "Scratch blocks are further organized into color-coded categories based on what the block does. These categories appear at the left of the block palette, and are:\nCategory Color Purpose Motion Rotate the sprite and move it around the stage Looks Alter the appearance of the sprite Sound Play and apply affects to pre-recorded sounds Events Trigger execution of block stacks Control Control program flow in block stacks Sensing Blocks that determine details from the user and the program state Operators Perform operations on data Variables Get and set variable and list values My Blocks Custom, user-created blocks Additional block categories can be supplied by Scratch Extensions.",
+    "tags": [],
+    "title": "Block Categories",
+    "uri": "/intro-scratch/02-blocks/03-block-categories/"
   },
   {
     "breadcrumb": "Introduction",

@@ -34,20 +34,73 @@
   
 	
 		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 		
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/</loc>
-    <lastmod>2024-07-31T09:49:56-05:00</lastmod>
+    <lastmod>2024-08-25T15:52:29-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/</loc>
+    <lastmod>2024-08-25T15:52:29-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/05-extra/01-block-sequence/</loc>
+    <lastmod>2024-08-25T15:52:29-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/01-introduction/</loc>
+    <lastmod>2024-08-25T15:52:29-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/03-motion/01-move-steps/</loc>
+    <lastmod>2024-08-25T15:52:29-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/01-welcome/</loc>
     <lastmod>2024-08-15T14:03:40-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/02-block-shapes/</loc>
+    <lastmod>2024-08-25T15:52:29-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/05-extra/02-block-stacks/</loc>
+    <lastmod>2024-08-25T15:52:29-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/02-computational-thinking/</loc>
     <lastmod>2024-08-15T14:03:40-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/03-block-categories/</loc>
+    <lastmod>2024-08-25T15:52:29-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/03-ct-framework/</loc>

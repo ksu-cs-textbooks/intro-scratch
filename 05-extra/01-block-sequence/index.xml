@@ -1,0 +1,73 @@
+
+
+
+
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Block Sequences :: Introduction to Scratch</title>
+    <link>https://textbooks.cs.ksu.edu/intro-scratch/05-extra/01-block-sequence/</link>
+    <description>The term sequence in computational thinking refers to issuing one command after another, to be carried out in order. In Scratch, this is represented by a stack of blocks that have been snapped together. Each stack starts with a hat block (so called becuase it resembles a baseball cap) that identifies the conditions that will start the execution (the carrying out) of that sequences’s commands. You will learn more about hat blocks in the events chapter, but for now we’ll only use the ‘Green Flag Clicked’ block:</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/intro-scratch/05-extra/01-block-sequence/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

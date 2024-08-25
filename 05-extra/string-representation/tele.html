@@ -1,0 +1,171 @@
+
+
+
+
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.128.0">
+    <meta name="generator" content="Relearn 6.0.0">
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+    <meta name="description" content="In programming terminology, strings are a sequence of characters like letters, digits, punctuation, and whitespace (spaces, tabs, and new lines).
+Each character is represented by a number of bits. One of the most popular early string encodings, ASCII used 8 bits to represent each character. Thus, a capital A corresponded to the binary number 11011 (51 in base 10). With eight bits, we can represent 2⁸ possible values, or 256 characters.">
+    <meta name="author" content="Nathan Bean">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="In programming terminology, strings are a sequence of characters like letters, digits, punctuation, and whitespace (spaces, tabs, and new lines).
+Each character is represented by a number of bits. One of the most popular early string encodings, ASCII used 8 bits to represent each character. Thus, a capital A corresponded to the binary number 11011 (51 in base 10). With eight bits, we can represent 2⁸ possible values, or 256 characters.">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/intro-scratch/05-extra/string-representation/">
+    <meta property="og:site_name" content="Introduction to Scratch">
+    <meta property="og:description" content="In programming terminology, strings are a sequence of characters like letters, digits, punctuation, and whitespace (spaces, tabs, and new lines).
+Each character is represented by a number of bits. One of the most popular early string encodings, ASCII used 8 bits to represent each character. Thus, a capital A corresponded to the binary number 11011 (51 in base 10). With eight bits, we can represent 2⁸ possible values, or 256 characters.">
+    <meta property="og:locale" content="en-us">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="">
+    <meta property="article:modified_time" content="2024-08-25T15:52:29-05:00">
+    <meta itemprop="description" content="In programming terminology, strings are a sequence of characters like letters, digits, punctuation, and whitespace (spaces, tabs, and new lines).
+Each character is represented by a number of bits. One of the most popular early string encodings, ASCII used 8 bits to represent each character. Thus, a capital A corresponded to the binary number 11011 (51 in base 10). With eight bits, we can represent 2⁸ possible values, or 256 characters.">
+    <meta itemprop="dateModified" content="2024-08-25T15:52:29-05:00">
+    <meta itemprop="wordCount" content="322">
+    <title></title>
+    <link href="/intro-scratch/css/fontawesome-all.min.css?1724619179" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/intro-scratch/css/fontawesome-all.min.css?1724619179" rel="stylesheet"></noscript>
+    <link href="/intro-scratch/css/nucleus.css?1724619179" rel="stylesheet">
+    <link href="/intro-scratch/css/auto-complete.css?1724619179" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/intro-scratch/css/auto-complete.css?1724619179" rel="stylesheet"></noscript>
+    <link href="/intro-scratch/css/perfect-scrollbar.min.css?1724619179" rel="stylesheet">
+    <link href="/intro-scratch/css/fonts.css?1724619179" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/intro-scratch/css/fonts.css?1724619179" rel="stylesheet"></noscript>
+    <link href="/intro-scratch/css/theme.css?1724619179" rel="stylesheet">
+    <link href="/intro-scratch/css/theme-auto.css?1724619179" rel="stylesheet" id="R-variant-style">
+    <link href="/intro-scratch/css/chroma-auto.css?1724619179" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/intro-scratch/css/variant.css?1724619179" rel="stylesheet">
+    <link href="/intro-scratch/css/print.css?1724619179" rel="stylesheet" media="print">
+    <script src="/intro-scratch/js/variant.js?1724619179"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/intro-scratch';
+      window.index_js_url="/intro-scratch/index.search.js";
+      // variant stuff
+      window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+    
+    <link href="/intro-scratch/css/custom.css?1724619179" rel="stylesheet">
+  </head>
+  <body class="mobile-support tele disableInlineCopyToClipboard" data-url="/intro-scratch/05-extra/string-representation/">
+    
+    <div id="tele" class="tele mirror">
+    
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      
+      
+      
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id=""></h1>
+
+<p>In programming terminology, <em>strings</em> are a sequence of characters like letters, digits, punctuation, and whitespace (spaces, tabs, and new lines).</p>
+<p>Each character is represented by a number of bits. One of the most popular early string encodings, ASCII used 8 bits to represent each character.  Thus, a capital <strong>A</strong> corresponded to the binary number <strong>11011</strong> (51 in base 10). With eight bits, we can represent 2⁸ possible values, or 256 characters. This is enough for both cases of the English alphabet, the Greek Alphabet, the numerals 0 to 10 and superscript and subscript versions of each, a lot of mathematical symbols, and some special symbols representing computer control signals. The standard ASCII character encodings appear in the table below:</p>
+<p><a href="#R-image-a1f83fba3dbed08ff911f37a812693e6" class="lightbox-link"><img alt="ASCII Encoding Table" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/intro-scratch/images/asciifull.gif" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-a1f83fba3dbed08ff911f37a812693e6"><img alt="ASCII Encoding Table" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/intro-scratch/images/asciifull.gif"></a></p>
+<p>However, it was not enough to represent pictographic languages like Japanese and Chinese (there are over 50,000 kanji in the Japanese writing system). Unicode is a more modern standard that accounts for this need for additional character representation by using a variable number of bits to represent a symbol, with the first few bits indicating just how many bits are needed.</p>
+<p>Thankfully, we don&rsquo;t really need to know what the binary sequence representing a character is - the computer programs and languages we work with allow us to operate at a higher level, i.e. when we press a key on the keyboard, the character code for that key is passed to the program we are using. As long as the encoding matches what the program expects, everything works fine (but if it doesn&rsquo;t match, the wrong characters will be displayed, which often looks like gibberish). Moreover, Unicode&rsquo;s representation of English is a superset of the ASCII character encodings, so interpreting an English Unicode document as ASCII or the reverse usually works (though there may be a few odd characters).</p>
+<p>Scratch adopts Unicode, which allows it to support a large number of languages. Now let&rsquo;s see how we can work with strings in Scratch.</p>
+
+            <footer class="footline">
+              
+              
+              
+              
+            </footer>
+          </article>
+</div>
+</main>
+</div>
+
+</div>
+
+
+
+
+<script src="/intro-scratch/js/clipboard.min.js?1724619179" defer></script>
+<script src="/intro-scratch/js/perfect-scrollbar.min.js?1724619179" defer></script>
+<script src="/intro-scratch/js/theme.js?1724619179" defer></script>
+
+<script src="/intro-scratch/js/tele-scroll.js?1724619179" defer></script>
+
+</body>
+</html>

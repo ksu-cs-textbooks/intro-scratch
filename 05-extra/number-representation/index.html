@@ -1,0 +1,361 @@
+
+
+
+
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr" itemscope itemtype="http://schema.org/Article">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.128.0">
+    <meta name="generator" content="Relearn 6.0.0">
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+    <meta name="description" content="Most programming languages have multiple ways to represent numbers. In particular, they make a distinction between (integers in mathematics) and those with a decimal point (called rational numbers in mathematics). The reason is that way we encode these values in binary is different. While we don’t really need to understand the full details of this encoding, we do need to understand their implications
+Integers In mathematics, integers are simply whole numbers - ones without a fractional part, i.">
+    <meta name="author" content="Nathan Bean">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="Most programming languages have multiple ways to represent numbers. In particular, they make a distinction between (integers in mathematics) and those with a decimal point (called rational numbers in mathematics). The reason is that way we encode these values in binary is different. While we don’t really need to understand the full details of this encoding, we do need to understand their implications
+Integers In mathematics, integers are simply whole numbers - ones without a fractional part, i.">
+    <meta property="og:url" content="https://textbooks.cs.ksu.edu/intro-scratch/05-extra/number-representation/">
+    <meta property="og:site_name" content="Introduction to Scratch">
+    <meta property="og:description" content="Most programming languages have multiple ways to represent numbers. In particular, they make a distinction between (integers in mathematics) and those with a decimal point (called rational numbers in mathematics). The reason is that way we encode these values in binary is different. While we don’t really need to understand the full details of this encoding, we do need to understand their implications
+Integers In mathematics, integers are simply whole numbers - ones without a fractional part, i.">
+    <meta property="og:locale" content="en-us">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="">
+    <meta property="article:modified_time" content="2024-08-25T15:52:29-05:00">
+    <meta itemprop="description" content="Most programming languages have multiple ways to represent numbers. In particular, they make a distinction between (integers in mathematics) and those with a decimal point (called rational numbers in mathematics). The reason is that way we encode these values in binary is different. While we don’t really need to understand the full details of this encoding, we do need to understand their implications
+Integers In mathematics, integers are simply whole numbers - ones without a fractional part, i.">
+    <meta itemprop="dateModified" content="2024-08-25T15:52:29-05:00">
+    <meta itemprop="wordCount" content="539">
+    <title></title>
+    <link href="/intro-scratch/css/fontawesome-all.min.css?1724619178" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/intro-scratch/css/fontawesome-all.min.css?1724619178" rel="stylesheet"></noscript>
+    <link href="/intro-scratch/css/nucleus.css?1724619178" rel="stylesheet">
+    <link href="/intro-scratch/css/auto-complete.css?1724619178" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/intro-scratch/css/auto-complete.css?1724619178" rel="stylesheet"></noscript>
+    <link href="/intro-scratch/css/perfect-scrollbar.min.css?1724619178" rel="stylesheet">
+    <link href="/intro-scratch/css/fonts.css?1724619178" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/intro-scratch/css/fonts.css?1724619178" rel="stylesheet"></noscript>
+    <link href="/intro-scratch/css/theme.css?1724619178" rel="stylesheet">
+    <link href="/intro-scratch/css/theme-auto.css?1724619178" rel="stylesheet" id="R-variant-style">
+    <link href="/intro-scratch/css/chroma-auto.css?1724619178" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/intro-scratch/css/variant.css?1724619178" rel="stylesheet">
+    <link href="/intro-scratch/css/print.css?1724619178" rel="stylesheet" media="print">
+    <script src="/intro-scratch/js/variant.js?1724619178"></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='https:\/\/textbooks.cs.ksu.edu\/intro-scratch';
+      window.index_js_url="/intro-scratch/index.search.js";
+      // variant stuff
+      window.variants && variants.init( [ 'auto', 'light-theme', 'dark-theme' ] );
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+    </script>
+    
+    <link href="/intro-scratch/css/custom.css?1724619178" rel="stylesheet">
+  </head>
+  <body class="mobile-support html disableInlineCopyToClipboard" data-url="/intro-scratch/05-extra/number-representation/">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList">
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-edit" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="https://github.com/ksu-cs-textbooks/hugo-starter/edit/main/content/05-extra/number-representation.md" target="_blank" title="Edit (CTRL&#43;ALT&#43;w)"><i class="fa-fw fas fa-pen"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-print" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/intro-scratch/05-extra/number-representation/index.print.html" title="Print whole chapter (CTRL&#43;ALT&#43;p)"><i class="fa-fw fas fa-print"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/intro-scratch/02-blocks/03-block-categories/" title="Block Categories (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><span class="topbar-control"><i class="fa-fw fas fa-chevron-right"></i></span>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+            <div class="topbar-button topbar-button-embed" data-content-empty="disable" data-width-s="area-more" data-width-m="area-more" data-width-l="area-more"><a class="topbar-control" href="/intro-scratch/05-extra/number-representation/embed.html" title="Embeddable Version"><i class="fa-fw fas fa-expand-arrows-alt"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-tele" data-content-empty="disable" data-width-s="area-more" data-width-m="area-more" data-width-l="area-more"><a class="topbar-control" href="/intro-scratch/05-extra/number-representation/tele.html" title="Teleprompter View"><i class="fa-fw fas fa-tv"></i></a>
+            </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="default">
+            <header class="headline">
+            </header>
+
+<h1 id=""></h1>
+
+<p>Most programming languages have multiple ways to represent numbers. In particular, they make a distinction between (integers in mathematics) and those with a decimal point (called rational numbers in mathematics). The reason is that way we encode these values in binary is different. While we don&rsquo;t really need to understand the full details of this encoding, we do need to understand their implications</p>
+<h1 id="integers">Integers</h1>
+<p>In mathematics, integers are simply whole numbers - ones without a fractional part, i.e. (0, 1, 2, 3, 4). They can be negative or positive, and they go on to infinity and negative infinity, though we don&rsquo;t typically try to count that high.</p>
+<p>We can convert a base 10 number to base 2 pretty easily.  Let&rsquo;s count to 7:</p>
+<table>
+<thead>
+<tr>
+<th>Base 10</th>
+<th>Base 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>10</td>
+</tr>
+<tr>
+<td>3</td>
+<td>11</td>
+</tr>
+<tr>
+<td>4</td>
+<td>100</td>
+</tr>
+<tr>
+<td>5</td>
+<td>101</td>
+</tr>
+<tr>
+<td>6</td>
+<td>110</td>
+</tr>
+<tr>
+<td>7</td>
+<td>111</td>
+</tr>
+</tbody>
+</table>
+<p>Notice that to represent larger numbers, we need more digits? So for 0 and 1 we only needed one binary digit, for 2 and 3 we needed two binary digits, and for 4 through 7 we needed three binary digits. To represent 8, we need four.</p>
+<p>In fact, the maximum number we can represent in base 2 is determined by 2 to the power of the bits available, i.e. if we have 8 bits (binary digits), we can represent any number up to 255:</p>
+<p>$$
+2^8 = 256
+$$</p>
+<p>(Remember, we are also representing 0 in our 256 possible numbers).</p>
+<p>For a computer&rsquo;s central processing unit to effectively do calculations, it needs to have a set amount of bits it can work with. Most modern computers use either 32 or 64 bit processors, meaning the largest positive integer they could represent are $2^{32} = 4,294,967,296$ and $2^{64} = 18,446,744,073,709,551,616$ respectively. However, that is not quite true, as we reserve one of those bits to indicate if the integer is positive and negative, and a couple of the largest possible values are reserved to represent special values like <em>infinity</em> and <em>not a number</em>.</p>
+<p>We don&rsquo;t need to know all the exact details - just that an integer in any programming language will have a maximum and minimum possible value. If we think we might need a larger (or smaller) number than that, we&rsquo;ll need to use a different representation.</p>
+<h1 id="rational-numbers">Rational Numbers</h1>
+<p>In mathematics, Rational numbers are those that can be expressed as a fraction of two integers $p/q$ provided $q≠0$.</p>
+<p>We typically represent these with a special binary encoding called <em>floating point</em> that uses one bit to represent if the number is positive or negative, some number of bits to represent the significant digits (the fraction), and a second number of bits to represent an exponent term used to determine where the decimal point should go. The representation is similar to scientific notation:</p>
+<p>$$
+\pm[fraction] \times 10^{[exponent]}
+$$</p>
+<p>This representation allows a very large range of numbers to be represented, at the cost of precision. Mixing very large and very small numbers in algebraic operations can exacerbate this loss of precision.</p>
+<p>There is an alternate representation, <em>fixed point</em>, which uses a similar strategy to integers, with an assumed location for the decimal point. It represents a much smaller range of numbers, but</p>
+<p>For most operations, we don&rsquo;t</p>
+
+            <footer class="footline">
+              
+              
+              
+              
+            </footer>
+          </article>
+        </div>
+      </main>
+    
+<div class="git-footer">
+  <p class="theme-version-footer">6.0.0</p>
+  <p>Last modified by: 
+              <i class='fas fa-user'></i> Nathan Bean
+              <i class='fas fa-calendar'></i> <a href="https://github.com/ksu-cs-textbooks/hugo-starter/commit/89340b61c1f336ae710226f7a9120866443ac7d5">Aug 25, 2024</a>
+  </p>
+  </div>
+  
+    
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+
+
+<a id="logo" href="/intro-scratch/">
+    <img src="/intro-scratch/images/core-logo-on-purple.svg" alt="Computational Core Logo" style="width: 100%">
+</a>
+
+        </div>
+
+        <search><form action="/intro-scratch/search.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="/intro-scratch/js/auto-complete.js?1724619178" defer></script>
+        <script src="/intro-scratch/js/lunr/lunr.min.js?1724619178" defer></script>
+        <script src="/intro-scratch/js/lunr/lunr.stemmer.support.min.js?1724619178" defer></script>
+        <script src="/intro-scratch/js/lunr/lunr.multi.min.js?1724619178" defer></script>
+        <script src="/intro-scratch/js/lunr/lunr.en.min.js?1724619178" defer></script>
+        <script src="/intro-scratch/js/search.js?1724619178" defer></script>
+      </div>
+      <div id="R-homelinks" class="default-animation">
+        <hr class="padding">
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div id="R-topics">
+          <ul class="enlarge morespace collapsible-menu">
+          <li data-nav-id="/intro-scratch/01-introduction/" class=""><input type="checkbox" id="R-section-97af81d8468c589e658b8950871073d8" aria-controls="R-subsections-97af81d8468c589e658b8950871073d8"><label for="R-section-97af81d8468c589e658b8950871073d8"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Introduction</span></label><a class="padding" href="/intro-scratch/01-introduction/"><b>1. </b>Introduction</a><ul id="R-subsections-97af81d8468c589e658b8950871073d8" class="morespace collapsible-menu">
+          <li data-nav-id="/intro-scratch/01-introduction/01-welcome/" class=""><a class="padding" href="/intro-scratch/01-introduction/01-welcome/">1. Welcome</a></li>
+          <li data-nav-id="/intro-scratch/01-introduction/02-computational-thinking/" class=""><a class="padding" href="/intro-scratch/01-introduction/02-computational-thinking/">2. Computational Thinking</a></li>
+          <li data-nav-id="/intro-scratch/01-introduction/03-ct-framework/" class=""><a class="padding" href="/intro-scratch/01-introduction/03-ct-framework/">3. CT Framework</a></li>
+          <li data-nav-id="/intro-scratch/01-introduction/04-programming/" class=""><a class="padding" href="/intro-scratch/01-introduction/04-programming/">4. Block-Based Programming</a></li>
+          <li data-nav-id="/intro-scratch/01-introduction/05-scratch-editor/" class=""><a class="padding" href="/intro-scratch/01-introduction/05-scratch-editor/">5. Scratch Editor</a></li></ul></li>
+          <li data-nav-id="/intro-scratch/02-blocks/" class=""><input type="checkbox" id="R-section-19bbafbac66613ab2d9377f80f9db60d" aria-controls="R-subsections-19bbafbac66613ab2d9377f80f9db60d"><label for="R-section-19bbafbac66613ab2d9377f80f9db60d"><i class="fa-fw fas fa-chevron-down"></i><i class="fa-fw fas fa-chevron-right"></i><span class="a11y-only">Submenu Scratch Blocks</span></label><a class="padding" href="/intro-scratch/02-blocks/"><b>2. </b>Scratch Blocks</a><ul id="R-subsections-19bbafbac66613ab2d9377f80f9db60d" class="morespace collapsible-menu">
+          <li data-nav-id="/intro-scratch/02-blocks/01-introduction/" class=""><a class="padding" href="/intro-scratch/02-blocks/01-introduction/">1. Introduction</a></li>
+          <li data-nav-id="/intro-scratch/02-blocks/02-block-shapes/" class=""><a class="padding" href="/intro-scratch/02-blocks/02-block-shapes/">2. Block Shapes</a></li>
+          <li data-nav-id="/intro-scratch/02-blocks/03-block-categories/" class=""><a class="padding" href="/intro-scratch/02-blocks/03-block-categories/">3. Block Categories</a></li></ul></li>
+          </ul>
+        </div>
+        <div class="padding footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter"></div>
+        <div id="R-menu-footer">
+          <hr class="padding default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showVariantSwitch showFooter">
+          <div id="R-prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showVariantSwitch">
+            <ul>
+              <li id="R-select-language-container" class="footerLangSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-language"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-language">Language</label>
+                    <select id="R-select-language" onchange="location = this.querySelector( this.value ).dataset.url;">
+                      <option id="R-select-language-en" value="#R-select-language-en" data-url="/intro-scratch/05-extra/number-representation/" lang="en-us" selected></option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+              <li id="R-select-variant-container" class="footerVariantSwitch showVariantSwitch">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-paint-brush"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <label class="a11y-only" for="R-select-variant">Theme</label>
+                    <select id="R-select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                      <option id="R-select-variant-auto" value="auto" selected>KSU Auto</option>
+                      <option id="R-select-variant-light-theme" value="light-theme">KSU Light</option>
+                      <option id="R-select-variant-dark-theme" value="dark-theme">KSU Dark</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+                <script>window.variants && variants.markSelectedVariant();</script>
+              </li>
+              <li class="footerVisitedLinks">
+                <div class="padding menu-control">
+                  <i class="fa-fw fas fa-history"></i>
+                  <span>&nbsp;</span>
+                  <div class="control-style">
+                    <button onclick="clearHistory();">Clear History</button>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div id="R-footer" class="footerFooter showFooter"><p>Built using <a href="http://gohugo.io/">Hugo</a> and <a href="https://github.com/ksu-cs-textbooks/hugo-theme-relearn">Hugo Relearn Theme</a>.</p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0; margin: .5rem auto" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a> See <a href="https://core.cs.ksu.edu/license">License & Attribution</a> for details.</p>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <script src="/intro-scratch/js/clipboard.min.js?1724619178" defer></script>
+    <script src="/intro-scratch/js/perfect-scrollbar.min.js?1724619178" defer></script>
+    <script src="/intro-scratch/js/theme.js?1724619178" defer></script>
+  </body>
+</html>

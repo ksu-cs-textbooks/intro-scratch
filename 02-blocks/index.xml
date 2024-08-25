@@ -1,0 +1,94 @@
+
+
+
+
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scratch Blocks :: Introduction to Scratch</title>
+    <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/</link>
+    <description>An exploration of the blocks from which Scratch programs are built</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/01-introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/01-introduction/</guid>
+      <description>As a block-based programming langauge, Scratch programs are built from snippets of code represented by blocks. These blocks have a quasi-puzzle piece shapes that helps indicate how they can fit together. Consider this example program that counts to ten:&#xA;Here we see a number of different blocks snapped tightly together to form a complete, simple program. This chapter will indroduce the various blocks available in Scratch, as well as explain thier basic functionality and use.</description>
+    </item>
+    <item>
+      <title>Block Shapes</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/02-block-shapes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/02-block-shapes/</guid>
+      <description>Scratch blocks come in several shapes, which help identify how they can snap together and are intended to be used:&#xA;Name Shape Use Hat Block First block in a stack of blocks, and identifies what event will start execution of the block stack Stack block The primary shape of block in a block stack, typically executes some kind of instruction Cap block Can only be used as the last block in a block stack as it ends the execution of the stack C block Also used in stacks, but allows for one or more stacks of blocks to be snapped inside that will be conditionally or repeatedly executed Reporter block Snaps into the input field of another block, providing a value for that block to use Boolean block Snaps into a boolean input field of another block, and provides a value of true or false </description>
+    </item>
+    <item>
+      <title>Block Categories</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/03-block-categories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/03-block-categories/</guid>
+      <description>Scratch blocks are further organized into color-coded categories based on what the block does. These categories appear at the left of the block palette, and are:&#xA;Category Color Purpose Motion Rotate the sprite and move it around the stage Looks Alter the appearance of the sprite Sound Play and apply affects to pre-recorded sounds Events Trigger execution of block stacks Control Control program flow in block stacks Sensing Blocks that determine details from the user and the program state Operators Perform operations on data Variables Get and set variable and list values My Blocks Custom, user-created blocks Additional block categories can be supplied by Scratch Extensions.</description>
+    </item>
+  </channel>
+</rss>

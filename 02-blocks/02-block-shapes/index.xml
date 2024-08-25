@@ -1,0 +1,73 @@
+
+
+
+
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Block Shapes :: Introduction to Scratch</title>
+    <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/02-block-shapes/</link>
+    <description>Scratch blocks come in several shapes, which help identify how they can snap together and are intended to be used:&#xA;Name Shape Use Hat Block First block in a stack of blocks, and identifies what event will start execution of the block stack Stack block The primary shape of block in a block stack, typically executes some kind of instruction Cap block Can only be used as the last block in a block stack as it ends the execution of the stack C block Also used in stacks, but allows for one or more stacks of blocks to be snapped inside that will be conditionally or repeatedly executed Reporter block Snaps into the input field of another block, providing a value for that block to use Boolean block Snaps into a boolean input field of another block, and provides a value of true or false </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/02-block-shapes/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

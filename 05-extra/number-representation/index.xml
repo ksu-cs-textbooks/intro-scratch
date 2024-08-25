@@ -1,0 +1,73 @@
+
+
+
+
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>https://textbooks.cs.ksu.edu/intro-scratch/05-extra/number-representation/</link>
+    <description>Most programming languages have multiple ways to represent numbers. In particular, they make a distinction between (integers in mathematics) and those with a decimal point (called rational numbers in mathematics). The reason is that way we encode these values in binary is different. While we don’t really need to understand the full details of this encoding, we do need to understand their implications&#xA;Integers In mathematics, integers are simply whole numbers - ones without a fractional part, i.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/intro-scratch/05-extra/number-representation/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
