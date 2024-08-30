@@ -59,6 +59,231 @@
   
 	
 		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 		
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
@@ -89,6 +314,69 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/03-block-categories/</guid>
       <description>Scratch blocks are further organized into color-coded categories based on what the block does. These categories appear at the left of the block palette, and are:&#xA;Category Color Purpose Motion Rotate the sprite and move it around the stage Looks Alter the appearance of the sprite Sound Play and apply affects to pre-recorded sounds Events Trigger execution of block stacks Control Control program flow in block stacks Sensing Blocks that determine details from the user and the program state Operators Perform operations on data Variables Get and set variable and list values My Blocks Custom, user-created blocks Additional block categories can be supplied by Scratch Extensions.</description>
+    </item>
+    <item>
+      <title>Motion Blocks</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/</guid>
+      <description>Motion blocks are used to rotate the sprite and to move it around the stage.</description>
+    </item>
+    <item>
+      <title>Looks Blocks</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/05-looks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/05-looks/</guid>
+      <description>Looks blocks change the appearance of the sprite</description>
+    </item>
+    <item>
+      <title>Sound Blocks</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/06-sound/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/06-sound/</guid>
+      <description>Sound blocks play and apply effects to recorded sounds</description>
+    </item>
+    <item>
+      <title>Event Blocks</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/07-events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/07-events/</guid>
+      <description>Event blocks trigger the execution of block stacks</description>
+    </item>
+    <item>
+      <title>Control Blocks</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/08-control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/08-control/</guid>
+      <description>Control blocks determine when blocks are executed</description>
+    </item>
+    <item>
+      <title>Sensing Blocks</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/09-sensing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/09-sensing/</guid>
+      <description>Sensing blocks report aspects of sprite and program state, and provide for user interaction</description>
+    </item>
+    <item>
+      <title>Operator Blocks</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/10-operators/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/10-operators/</guid>
+      <description>Operator blocks transform and report data.</description>
+    </item>
+    <item>
+      <title>Motion Blocks</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/11-my-blocks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/11-my-blocks/</guid>
+      <description>My blocks are custom, user-created blocks</description>
+    </item>
+    <item>
+      <title>Variable Blocks</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/12-variables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/12-variables/</guid>
+      <description>Variables blocks allow data to be stored while the program is running</description>
     </item>
   </channel>
 </rss>

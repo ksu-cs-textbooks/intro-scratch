@@ -59,6 +59,231 @@
   
 	
 		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 		
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
@@ -71,20 +296,28 @@
     <lastmod>2024-08-25T15:52:29-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/04-design-patterns/</loc>
+    <lastmod>2024-08-30T16:38:55-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/intro-scratch/05-extra/01-block-sequence/</loc>
     <lastmod>2024-08-25T15:52:29-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/01-introduction/</loc>
+    <lastmod>2024-08-30T16:38:55-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/01-introduction/</loc>
     <lastmod>2024-08-25T15:52:29-05:00</lastmod>
   </url>
   <url>
-    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/03-motion/01-move-steps/</loc>
-    <lastmod>2024-08-25T15:52:29-05:00</lastmod>
-  </url>
-  <url>
     <loc>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/01-welcome/</loc>
     <lastmod>2024-08-15T14:03:40-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/04-design-patterns/02-ask-and-set/</loc>
+    <lastmod>2024-08-30T16:38:55-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/02-block-shapes/</loc>
@@ -99,6 +332,14 @@
     <lastmod>2024-08-15T14:03:40-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/02-move-steps/</loc>
+    <lastmod>2024-08-30T16:38:55-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/04-design-patterns/03-animated-move/</loc>
+    <lastmod>2024-08-30T16:38:55-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/03-block-categories/</loc>
     <lastmod>2024-08-25T15:52:29-05:00</lastmod>
   </url>
@@ -107,12 +348,56 @@
     <lastmod>2024-08-15T14:03:40-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/03-turn-clockwise/</loc>
+    <lastmod>2024-08-30T16:38:55-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/04-programming/</loc>
     <lastmod>2024-08-15T14:03:40-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/</loc>
+    <lastmod>2024-08-30T16:38:55-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/04-turn-counterclockwise/</loc>
+    <lastmod>2024-08-30T16:38:55-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/05-looks/</loc>
+    <lastmod>2024-08-30T16:38:55-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/05-scratch-editor/</loc>
     <lastmod>2024-08-15T14:03:40-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/06-sound/</loc>
+    <lastmod>2024-08-30T16:38:55-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/07-events/</loc>
+    <lastmod>2024-08-30T16:38:55-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/08-control/</loc>
+    <lastmod>2024-08-30T16:38:55-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/09-sensing/</loc>
+    <lastmod>2024-08-30T16:38:55-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/10-operators/</loc>
+    <lastmod>2024-08-30T16:38:55-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/11-my-blocks/</loc>
+    <lastmod>2024-08-30T16:38:55-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/12-variables/</loc>
+    <lastmod>2024-08-30T16:38:55-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/intro-scratch/categories/</loc>
