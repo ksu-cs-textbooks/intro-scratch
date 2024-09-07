@@ -133,6 +133,31 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 		
 	  
 
@@ -288,9 +313,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
+    <title>go to x: () y: () :: Introduction to Scratch</title>
     <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/06-go-to-x-y/</link>
-    <description></description>
+    <description>The go to x: () y: () block moves a sprite to the coordinates (x, y) provided they are on the stage.&#xA;Notes The movement is instantaneous. If you would like it to be animated over time, see the glide () secs to x: () y:() block. If the desired position has off-stage coordinates these will be clamped to the max/min allowable coordinate to keep the sprite on-stage. I.e. attempting to move a sprite to (6,300) would instead place it at (6, 180).</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/06-go-to-x-y/index.xml" rel="self" type="application/rss+xml" />

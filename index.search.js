@@ -133,6 +133,31 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 		
 	  
 
@@ -439,6 +464,14 @@ var relearn_search_index = [
     "uri": "/intro-scratch/02-blocks/04-motion/04-turn-counterclockwise/"
   },
   {
+    "breadcrumb": "Scratch Blocks \u003e Motion Blocks",
+    "content": " The go to () block moves the sprite to the specified location. Possible locations include:\nrandom position - randomly chosen coordinates on-stage mouse pointer - the locationof the mouse cursor at the moment the block is executed The position of other sprites in the project at the moment the block is executed Notes The movement is instantaneous. The names of other sprites only appear in the list after they have been added to the project When a sprite is chosen as the target, the position used is always that of the original sprite, not one of its clones ",
+    "description": " The go to () block moves the sprite to the specified location. Possible locations include:\nrandom position - randomly chosen coordinates on-stage mouse pointer - the locationof the mouse cursor at the moment the block is executed The position of other sprites in the project at the moment the block is executed Notes The movement is instantaneous. The names of other sprites only appear in the list after they have been added to the project When a sprite is chosen as the target, the position used is always that of the original sprite, not one of its clones ",
+    "tags": [],
+    "title": "go to ()",
+    "uri": "/intro-scratch/02-blocks/04-motion/05-go-to/"
+  },
+  {
     "breadcrumb": "Scratch Blocks",
     "content": "Looks blocks change the appearance of the sprite",
     "description": "Looks blocks change the appearance of the sprite",
@@ -453,6 +486,14 @@ var relearn_search_index = [
     "tags": [],
     "title": "Scratch Editor",
     "uri": "/intro-scratch/01-introduction/05-scratch-editor/"
+  },
+  {
+    "breadcrumb": "Scratch Blocks \u003e Motion Blocks",
+    "content": " The go to x: () y: () block moves a sprite to the coordinates (x, y) provided they are on the stage.\nNotes The movement is instantaneous. If you would like it to be animated over time, see the glide () secs to x: () y:() block. If the desired position has off-stage coordinates these will be clamped to the max/min allowable coordinate to keep the sprite on-stage. I.e. attempting to move a sprite to (6,300) would instead place it at (6, 180). The coordinate system for the stage is: ",
+    "description": "The go to x: () y: () block moves a sprite to the coordinates (x, y) provided they are on the stage.\nNotes The movement is instantaneous. If you would like it to be animated over time, see the glide () secs to x: () y:() block. If the desired position has off-stage coordinates these will be clamped to the max/min allowable coordinate to keep the sprite on-stage. I.e. attempting to move a sprite to (6,300) would instead place it at (6, 180).",
+    "tags": [],
+    "title": "go to x: () y: ()",
+    "uri": "/intro-scratch/02-blocks/04-motion/06-go-to-x-y/"
   },
   {
     "breadcrumb": "Scratch Blocks",
@@ -471,12 +512,28 @@ var relearn_search_index = [
     "uri": "/intro-scratch/02-blocks/07-events/"
   },
   {
+    "breadcrumb": "Scratch Blocks \u003e Motion Blocks",
+    "content": " The glide () secs to () block moves the sprite to the specified location over the specified number of seconds. Possible locations include:\nrandom position - randomly chosen coordinates on-stage mouse pointer - the location of the mouse cursor at the moment this block is executed The position of other sprites in the project at the moment this block is executed Notes The names of other sprites only appear in the list after they have been added to the project When a sprite is chosen as the target, the position used is always that of the original sprite, not one of its clones ",
+    "description": " The glide () secs to () block moves the sprite to the specified location over the specified number of seconds. Possible locations include:\nrandom position - randomly chosen coordinates on-stage mouse pointer - the location of the mouse cursor at the moment this block is executed The position of other sprites in the project at the moment this block is executed Notes The names of other sprites only appear in the list after they have been added to the project When a sprite is chosen as the target, the position used is always that of the original sprite, not one of its clones ",
+    "tags": [],
+    "title": "glide () secs to ()",
+    "uri": "/intro-scratch/02-blocks/04-motion/07-glide-secs-to/"
+  },
+  {
     "breadcrumb": "Scratch Blocks",
     "content": "Control blocks determine when blocks are executed",
     "description": "Control blocks determine when blocks are executed",
     "tags": [],
     "title": "Control Blocks",
     "uri": "/intro-scratch/02-blocks/08-control/"
+  },
+  {
+    "breadcrumb": "Scratch Blocks \u003e Motion Blocks",
+    "content": " The glide to x: () y: () block moves a sprite to the coordinates (x, y) over the specified number of seconds, provided the coordinates are on the stage.\nNotes If the desired position has off-stage coordinates these will be clamped to the max/min allowable coordinate to keep the sprite on-stage. I.e. attempting to move a sprite to (6,300) would instead place it at (6, 180). The coordinate system for the stage is: ",
+    "description": " The glide to x: () y: () block moves a sprite to the coordinates (x, y) over the specified number of seconds, provided the coordinates are on the stage.\nNotes If the desired position has off-stage coordinates these will be clamped to the max/min allowable coordinate to keep the sprite on-stage. I.e. attempting to move a sprite to (6,300) would instead place it at (6, 180). The coordinate system for the stage is: ",
+    "tags": [],
+    "title": "glide () secs to x: () y: ()",
+    "uri": "/intro-scratch/02-blocks/04-motion/08-glide-secs-to-x-y/"
   },
   {
     "breadcrumb": "Scratch Blocks",
@@ -495,6 +552,14 @@ var relearn_search_index = [
     "uri": "/intro-scratch/02-blocks/10-operators/"
   },
   {
+    "breadcrumb": "Scratch Blocks \u003e Motion Blocks",
+    "content": " The change x by () block changes the sprites x-coordinate by the supplied value. For example, if the sprite was currently at x: 110, and the value of 10 was supplied to this block, the new value would be x: 120.\nNotes The movement is instantaneous. If the desired position has off-stage coordinates these will be clamped to the max/min allowable coordinate to keep the sprite on-stage. I.e. attempting to change a sprite’s x position by 600 would instead set its x position to 240. The coordinate system for the stage is: ",
+    "description": "The change x by () block changes the sprites x-coordinate by the supplied value. For example, if the sprite was currently at x: 110, and the value of 10 was supplied to this block, the new value would be x: 120.\nNotes The movement is instantaneous. If the desired position has off-stage coordinates these will be clamped to the max/min allowable coordinate to keep the sprite on-stage. I.e. attempting to change a sprite’s x position by 600 would instead set its x position to 240.",
+    "tags": [],
+    "title": "change x by ()",
+    "uri": "/intro-scratch/02-blocks/04-motion/11-change-x-by/"
+  },
+  {
     "breadcrumb": "Scratch Blocks",
     "content": "My blocks are custom, user-created blocks",
     "description": "My blocks are custom, user-created blocks",
@@ -503,12 +568,60 @@ var relearn_search_index = [
     "uri": "/intro-scratch/02-blocks/11-my-blocks/"
   },
   {
+    "breadcrumb": "Scratch Blocks \u003e Motion Blocks",
+    "content": " The set x to block changes the sprite’s x position to the provided value.\nNotes The movement is instantaneous. If you want to set both the x and y coordinates at the same time, use go to x: () y: () instead. If the desired position has off-stage coordinates these will be clamped to the max/min allowable coordinate to keep the sprite on-stage. I.e. attempting to set x to -300 would instead set it to -240. The coordinate system for the stage is: ",
+    "description": "The set x to block changes the sprite’s x position to the provided value.\nNotes The movement is instantaneous. If you want to set both the x and y coordinates at the same time, use go to x: () y: () instead. If the desired position has off-stage coordinates these will be clamped to the max/min allowable coordinate to keep the sprite on-stage. I.e. attempting to set x to -300 would instead set it to -240.",
+    "tags": [],
+    "title": "set x to ()",
+    "uri": "/intro-scratch/02-blocks/04-motion/12-set-x-to/"
+  },
+  {
     "breadcrumb": "Scratch Blocks",
     "content": "Variables blocks allow data to be stored while the program is running",
     "description": "Variables blocks allow data to be stored while the program is running",
     "tags": [],
     "title": "Variable Blocks",
     "uri": "/intro-scratch/02-blocks/12-variables/"
+  },
+  {
+    "breadcrumb": "Scratch Blocks \u003e Motion Blocks",
+    "content": " The change y by () block changes the sprites y-coordinate by the supplied value. For example, if the sprite was currently at y: 130, and the value of -10 was supplied to this block, the new value would be x: 120.\nNotes The movement is instantaneous. If the desired position has off-stage coordinates these will be clamped to the max/min allowable coordinate to keep the sprite on-stage. I.e. attempting to change a sprite’s y position by -400 would instead set its y position to -180. The coordinate system for the stage is: ",
+    "description": "The change y by () block changes the sprites y-coordinate by the supplied value. For example, if the sprite was currently at y: 130, and the value of -10 was supplied to this block, the new value would be x: 120.\nNotes The movement is instantaneous. If the desired position has off-stage coordinates these will be clamped to the max/min allowable coordinate to keep the sprite on-stage. I.e. attempting to change a sprite’s y position by -400 would instead set its y position to -180.",
+    "tags": [],
+    "title": "change y by ()",
+    "uri": "/intro-scratch/02-blocks/04-motion/13-change-y-by/"
+  },
+  {
+    "breadcrumb": "Scratch Blocks \u003e Motion Blocks",
+    "content": " The set y to block changes the sprite’s y position to the provided value.\nNotes The movement is instantaneous. If you want to set both the x and y coordinates at the same time, use go to x: () y: () instead. If the desired position has off-stage coordinates these will be clamped to the max/min allowable coordinate to keep the sprite on-stage. I.e. attempting to set y to 250 would instead set it to 180. The coordinate system for the stage is: ",
+    "description": "The set y to block changes the sprite’s y position to the provided value.\nNotes The movement is instantaneous. If you want to set both the x and y coordinates at the same time, use go to x: () y: () instead. If the desired position has off-stage coordinates these will be clamped to the max/min allowable coordinate to keep the sprite on-stage. I.e. attempting to set y to 250 would instead set it to 180.",
+    "tags": [],
+    "title": "set y to ()",
+    "uri": "/intro-scratch/02-blocks/04-motion/14-set-y-to/"
+  },
+  {
+    "breadcrumb": "Scratch Blocks \u003e Motion Blocks",
+    "content": " The x position block reports a sprite’s current x coordinate on the stage.\nNotes The value can be displayed on the stage by checking the box next to the block in the code palette The value displayed on the stage is always that of the original sprite When used in a script run by a clone, it refers to the clone’s position ",
+    "description": " The x position block reports a sprite’s current x coordinate on the stage.\nNotes The value can be displayed on the stage by checking the box next to the block in the code palette The value displayed on the stage is always that of the original sprite When used in a script run by a clone, it refers to the clone’s position ",
+    "tags": [],
+    "title": "x position",
+    "uri": "/intro-scratch/02-blocks/04-motion/17-x-position/"
+  },
+  {
+    "breadcrumb": "Scratch Blocks \u003e Motion Blocks",
+    "content": " The y position block reports a sprite’s current y coordinate on the stage.\nNotes The value can be displayed on the stage by checking the box next to the block in the code palette The value displayed on the stage is always that of the original sprite When used in a script run by a clone, it refers to the clone’s position ",
+    "description": " The y position block reports a sprite’s current y coordinate on the stage.\nNotes The value can be displayed on the stage by checking the box next to the block in the code palette The value displayed on the stage is always that of the original sprite When used in a script run by a clone, it refers to the clone’s position ",
+    "tags": [],
+    "title": "x position",
+    "uri": "/intro-scratch/02-blocks/04-motion/18-y-position/"
+  },
+  {
+    "breadcrumb": "Scratch Blocks \u003e Motion Blocks",
+    "content": " The direction block reports a sprite’s current direction, an angle between -180 and +180 degrees.\nNotes Setting an angle larger or smaller than the bounds will wrap (i.e. 185 will become -175) The value can be displayed on the stage by checking the box next to the block in the code palette The value displayed on the stage is always that of the original sprite When used in a script run by a clone, it refers to the clone’s position ",
+    "description": " The direction block reports a sprite’s current direction, an angle between -180 and +180 degrees.\nNotes Setting an angle larger or smaller than the bounds will wrap (i.e. 185 will become -175) The value can be displayed on the stage by checking the box next to the block in the code palette The value displayed on the stage is always that of the original sprite When used in a script run by a clone, it refers to the clone’s position ",
+    "tags": [],
+    "title": "direction",
+    "uri": "/intro-scratch/02-blocks/04-motion/19-direction/"
   },
   {
     "breadcrumb": "",

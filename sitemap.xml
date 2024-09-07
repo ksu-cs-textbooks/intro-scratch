@@ -133,6 +133,31 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 		
 	  
 
@@ -364,12 +389,20 @@
     <lastmod>2024-08-30T16:38:55-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/05-go-to/</loc>
+    <lastmod>2024-09-07T12:26:12-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/05-looks/</loc>
     <lastmod>2024-08-30T16:38:55-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/05-scratch-editor/</loc>
     <lastmod>2024-08-15T14:03:40-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/06-go-to-x-y/</loc>
+    <lastmod>2024-09-07T12:26:12-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/06-sound/</loc>
@@ -380,8 +413,16 @@
     <lastmod>2024-08-30T16:38:55-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/07-glide-secs-to/</loc>
+    <lastmod>2024-09-07T12:26:12-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/08-control/</loc>
     <lastmod>2024-08-30T16:38:55-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/08-glide-secs-to-x-y/</loc>
+    <lastmod>2024-09-07T12:26:12-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/09-sensing/</loc>
@@ -392,12 +433,40 @@
     <lastmod>2024-08-30T16:38:55-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/11-change-x-by/</loc>
+    <lastmod>2024-09-07T12:26:12-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/11-my-blocks/</loc>
     <lastmod>2024-08-30T16:38:55-05:00</lastmod>
   </url>
   <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/12-set-x-to/</loc>
+    <lastmod>2024-09-07T12:26:12-05:00</lastmod>
+  </url>
+  <url>
     <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/12-variables/</loc>
     <lastmod>2024-08-30T16:38:55-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/13-change-y-by/</loc>
+    <lastmod>2024-09-07T12:26:12-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/14-set-y-to/</loc>
+    <lastmod>2024-09-07T12:26:12-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/17-x-position/</loc>
+    <lastmod>2024-09-07T12:26:12-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/18-y-position/</loc>
+    <lastmod>2024-09-07T12:26:12-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/19-direction/</loc>
+    <lastmod>2024-09-07T12:26:12-05:00</lastmod>
   </url>
   <url>
     <loc>https://textbooks.cs.ksu.edu/intro-scratch/categories/</loc>

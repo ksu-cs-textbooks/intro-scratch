@@ -133,6 +133,31 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 		
 	  
 
@@ -321,6 +346,83 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/04-turn-counterclockwise/</guid>
       <description> The turn counterclockwise () rotates the sprite in a counterclockwise direction by the specified number of degrees.&#xA;Notes In Scratch, the positive direction of rotation is clockwise In Scratch, and angle of 0 is straight up A Sprite’s appearance and direction may not correspond if it’s costume was not drawn facing upwards </description>
+    </item>
+    <item>
+      <title>go to ()</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/05-go-to/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/05-go-to/</guid>
+      <description> The go to () block moves the sprite to the specified location. Possible locations include:&#xA;random position - randomly chosen coordinates on-stage mouse pointer - the locationof the mouse cursor at the moment the block is executed The position of other sprites in the project at the moment the block is executed Notes The movement is instantaneous. The names of other sprites only appear in the list after they have been added to the project When a sprite is chosen as the target, the position used is always that of the original sprite, not one of its clones </description>
+    </item>
+    <item>
+      <title>go to x: () y: ()</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/06-go-to-x-y/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/06-go-to-x-y/</guid>
+      <description>The go to x: () y: () block moves a sprite to the coordinates (x, y) provided they are on the stage.&#xA;Notes The movement is instantaneous. If you would like it to be animated over time, see the glide () secs to x: () y:() block. If the desired position has off-stage coordinates these will be clamped to the max/min allowable coordinate to keep the sprite on-stage. I.e. attempting to move a sprite to (6,300) would instead place it at (6, 180).</description>
+    </item>
+    <item>
+      <title>glide () secs to ()</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/07-glide-secs-to/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/07-glide-secs-to/</guid>
+      <description> The glide () secs to () block moves the sprite to the specified location over the specified number of seconds. Possible locations include:&#xA;random position - randomly chosen coordinates on-stage mouse pointer - the location of the mouse cursor at the moment this block is executed The position of other sprites in the project at the moment this block is executed Notes The names of other sprites only appear in the list after they have been added to the project When a sprite is chosen as the target, the position used is always that of the original sprite, not one of its clones </description>
+    </item>
+    <item>
+      <title>glide () secs to x: () y: ()</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/08-glide-secs-to-x-y/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/08-glide-secs-to-x-y/</guid>
+      <description> The glide to x: () y: () block moves a sprite to the coordinates (x, y) over the specified number of seconds, provided the coordinates are on the stage.&#xA;Notes If the desired position has off-stage coordinates these will be clamped to the max/min allowable coordinate to keep the sprite on-stage. I.e. attempting to move a sprite to (6,300) would instead place it at (6, 180). The coordinate system for the stage is: </description>
+    </item>
+    <item>
+      <title>change x by ()</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/11-change-x-by/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/11-change-x-by/</guid>
+      <description>The change x by () block changes the sprites x-coordinate by the supplied value. For example, if the sprite was currently at x: 110, and the value of 10 was supplied to this block, the new value would be x: 120.&#xA;Notes The movement is instantaneous. If the desired position has off-stage coordinates these will be clamped to the max/min allowable coordinate to keep the sprite on-stage. I.e. attempting to change a sprite’s x position by 600 would instead set its x position to 240.</description>
+    </item>
+    <item>
+      <title>set x to ()</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/12-set-x-to/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/12-set-x-to/</guid>
+      <description>The set x to block changes the sprite’s x position to the provided value.&#xA;Notes The movement is instantaneous. If you want to set both the x and y coordinates at the same time, use go to x: () y: () instead. If the desired position has off-stage coordinates these will be clamped to the max/min allowable coordinate to keep the sprite on-stage. I.e. attempting to set x to -300 would instead set it to -240.</description>
+    </item>
+    <item>
+      <title>change y by ()</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/13-change-y-by/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/13-change-y-by/</guid>
+      <description>The change y by () block changes the sprites y-coordinate by the supplied value. For example, if the sprite was currently at y: 130, and the value of -10 was supplied to this block, the new value would be x: 120.&#xA;Notes The movement is instantaneous. If the desired position has off-stage coordinates these will be clamped to the max/min allowable coordinate to keep the sprite on-stage. I.e. attempting to change a sprite’s y position by -400 would instead set its y position to -180.</description>
+    </item>
+    <item>
+      <title>set y to ()</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/14-set-y-to/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/14-set-y-to/</guid>
+      <description>The set y to block changes the sprite’s y position to the provided value.&#xA;Notes The movement is instantaneous. If you want to set both the x and y coordinates at the same time, use go to x: () y: () instead. If the desired position has off-stage coordinates these will be clamped to the max/min allowable coordinate to keep the sprite on-stage. I.e. attempting to set y to 250 would instead set it to 180.</description>
+    </item>
+    <item>
+      <title>x position</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/17-x-position/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/17-x-position/</guid>
+      <description> The x position block reports a sprite’s current x coordinate on the stage.&#xA;Notes The value can be displayed on the stage by checking the box next to the block in the code palette The value displayed on the stage is always that of the original sprite When used in a script run by a clone, it refers to the clone’s position </description>
+    </item>
+    <item>
+      <title>x position</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/18-y-position/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/18-y-position/</guid>
+      <description> The y position block reports a sprite’s current y coordinate on the stage.&#xA;Notes The value can be displayed on the stage by checking the box next to the block in the code palette The value displayed on the stage is always that of the original sprite When used in a script run by a clone, it refers to the clone’s position </description>
+    </item>
+    <item>
+      <title>direction</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/19-direction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/19-direction/</guid>
+      <description> The direction block reports a sprite’s current direction, an angle between -180 and +180 degrees.&#xA;Notes Setting an angle larger or smaller than the bounds will wrap (i.e. 185 will become -175) The value can be displayed on the stage by checking the box next to the block in the code palette The value displayed on the stage is always that of the original sprite When used in a script run by a clone, it refers to the clone’s position </description>
     </item>
   </channel>
 </rss>

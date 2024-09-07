@@ -133,6 +133,31 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 		
 	  
 
@@ -288,11 +313,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/13-set-y-to/</link>
-    <description></description>
+    <title>direction :: Introduction to Scratch</title>
+    <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/19-direction/</link>
+    <description> The direction block reports a sprite’s current direction, an angle between -180 and +180 degrees.&#xA;Notes Setting an angle larger or smaller than the bounds will wrap (i.e. 185 will become -175) The value can be displayed on the stage by checking the box next to the block in the code palette The value displayed on the stage is always that of the original sprite When used in a script run by a clone, it refers to the clone’s position </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/13-set-y-to/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/19-direction/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

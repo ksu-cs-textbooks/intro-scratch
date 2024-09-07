@@ -133,6 +133,31 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 		
 	  
 
@@ -288,9 +313,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
+    <title>go to () :: Introduction to Scratch</title>
     <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/05-go-to/</link>
-    <description></description>
+    <description> The go to () block moves the sprite to the specified location. Possible locations include:&#xA;random position - randomly chosen coordinates on-stage mouse pointer - the locationof the mouse cursor at the moment the block is executed The position of other sprites in the project at the moment the block is executed Notes The movement is instantaneous. The names of other sprites only appear in the list after they have been added to the project When a sprite is chosen as the target, the position used is always that of the original sprite, not one of its clones </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/05-go-to/index.xml" rel="self" type="application/rss+xml" />

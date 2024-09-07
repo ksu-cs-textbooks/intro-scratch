@@ -133,6 +133,31 @@
   
 	
 		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 		
 	  
 
@@ -288,11 +313,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/14-if-on-edge-bounce/</link>
-    <description></description>
+    <title>change y by () :: Introduction to Scratch</title>
+    <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/13-change-y-by/</link>
+    <description>The change y by () block changes the sprites y-coordinate by the supplied value. For example, if the sprite was currently at y: 130, and the value of -10 was supplied to this block, the new value would be x: 120.&#xA;Notes The movement is instantaneous. If the desired position has off-stage coordinates these will be clamped to the max/min allowable coordinate to keep the sprite on-stage. I.e. attempting to change a sprite’s y position by -400 would instead set its y position to -180.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/14-if-on-edge-bounce/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/04-motion/13-change-y-by/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
