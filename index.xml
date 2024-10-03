@@ -39,11 +39,6 @@
   
 	
 		
-		
-	  
-
-  
-	
 	  
 
   
@@ -59,65 +54,11 @@
   
 	
 		
-	  
-
-  
-	
-	  
-
-  
-	
 		
 	  
 
   
 	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -163,12 +104,6 @@
 
   
 	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -294,11 +229,166 @@
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
   
 	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -325,6 +415,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/</guid>
       <description>An overview of the Scratch programming language and environment</description>
+    </item>
+    <item>
+      <title>CT Concepts</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-ct-concepts.md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-ct-concepts.md/</guid>
+      <description>The Scratch Computational Thinking Concepts Explained</description>
     </item>
     <item>
       <title>Scratch Blocks</title>

@@ -39,11 +39,6 @@
   
 	
 		
-		
-	  
-
-  
-	
 	  
 
   
@@ -59,65 +54,11 @@
   
 	
 		
-	  
-
-  
-	
-	  
-
-  
-	
 		
 	  
 
   
 	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -163,12 +104,6 @@
 
   
 	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -294,11 +229,166 @@
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
   
 	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -313,11 +403,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <link>https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/06-scratch-blocks/</link>
-    <description></description>
+    <title>Events :: Introduction to Scratch</title>
+    <link>https://textbooks.cs.ksu.edu/intro-scratch/02-ct-concepts.md/06-events/</link>
+    <description>In programming, an event triggers the execution of code. You’ve already worked extensively with one event in Scratch, the when flag clicked block:&#xA;Clicking the green flag button on the stage triggers the hat block to execute.&#xA;A related event is triggered when you click the red stop sign button. That button stops all running scripts, effectively stopping the program. You can also trigger this event with the stop () block:</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://textbooks.cs.ksu.edu/intro-scratch/01-introduction/06-scratch-blocks/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://textbooks.cs.ksu.edu/intro-scratch/02-ct-concepts.md/06-events/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

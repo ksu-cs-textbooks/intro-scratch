@@ -39,11 +39,6 @@
   
 	
 		
-		
-	  
-
-  
-	
 	  
 
   
@@ -59,65 +54,11 @@
   
 	
 		
-	  
-
-  
-	
-	  
-
-  
-	
 		
 	  
 
   
 	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -163,12 +104,6 @@
 
   
 	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -294,11 +229,166 @@
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
   
 	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -315,7 +405,7 @@
   <channel>
     <title>Introduction :: Introduction to Scratch</title>
     <link>https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/01-introduction/</link>
-    <description>As a block-based programming langauge, Scratch programs are built from snippets of code represented by blocks. These blocks have a quasi-puzzle piece shapes that helps indicate how they can fit together. Consider this example program that counts to ten:&#xA;Here we see a number of different blocks snapped tightly together to form a complete, simple program. This chapter will indroduce the various blocks available in Scratch, as well as explain thier basic functionality and use.</description>
+    <description>As a block-based programming langauge, Scratch programs are built from snippets of code represented by blocks. These blocks have a quasi-puzzle piece shapes that helps indicate how they can fit together. Consider this example program that counts to ten:&#xA;Here we see a number of different blocks snapped tightly together to form a complete, simple program. This chapter will introduce the various blocks available in Scratch, as well as explain thier basic functionality and use.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="https://textbooks.cs.ksu.edu/intro-scratch/02-blocks/01-introduction/index.xml" rel="self" type="application/rss+xml" />

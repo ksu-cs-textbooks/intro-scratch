@@ -39,11 +39,6 @@
   
 	
 		
-		
-	  
-
-  
-	
 	  
 
   
@@ -59,65 +54,11 @@
   
 	
 		
-	  
-
-  
-	
-	  
-
-  
-	
 		
 	  
 
   
 	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -163,12 +104,6 @@
 
   
 	
-		
-	  
-
-  
-	
-		
 	  
 
   
@@ -294,11 +229,166 @@
   
 	
 		
+	  
+
+  
+	
 		
 	  
 
   
 	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
 	  
 
   
@@ -321,6 +411,14 @@ var relearn_search_index = [
   },
   {
     "breadcrumb": "",
+    "content": "The Scratch Computational Thinking Concepts Explained",
+    "description": "The Scratch Computational Thinking Concepts Explained",
+    "tags": [],
+    "title": "CT Concepts",
+    "uri": "/intro-scratch/02-ct-concepts.md/"
+  },
+  {
+    "breadcrumb": "",
     "content": "An exploration of the blocks from which Scratch programs are built",
     "description": "An exploration of the blocks from which Scratch programs are built",
     "tags": [],
@@ -336,14 +434,6 @@ var relearn_search_index = [
     "uri": "/intro-scratch/04-design-patterns/"
   },
   {
-    "breadcrumb": "",
-    "content": "The term sequence in computational thinking refers to issuing one command after another, to be carried out in order. In Scratch, this is represented by a stack of blocks that have been snapped together. Each stack starts with a hat block (so called becuase it resembles a baseball cap) that identifies the conditions that will start the execution (the carrying out) of that sequences’s commands. You will learn more about hat blocks in the events chapter, but for now we’ll only use the ‘Green Flag Clicked’ block:\nThis particular block will start the execution of a stack of blocks beneath it when the Green Flag button on the stage is clicked (like the play button on a DVD player). Notice the tab projecting out of the bottom of the block? We can connect any block with a corresponding divot in its top. For example, we can connect a ‘Say’ block:\nAnd when we click the green flag, this script will play, making Scratch the Cat (or whichever sprite this code belongs to) say the phrase “Hello”:\nWe can add any number of blocks to a block sequence, and they will be executed one at a time. We could expand the previous example to be:\nAnd we might expect the result to look like this:\nBut if you create the above program in Scratch, you will only see the Scratch Cat speak phrase “I hope you enjoy learning to program”. Why?\nActually, Scratch is making Scratch the Cat say all three phrases, and doing so one after the next. But it carries out these instrucions as quickly as it can. That means that the phrases “Hello!” and “Welcome to Scratch” are displayed on-screen for exactly 1 frame each (about 1/60th of a second for most computers). This is too fast for the human eye and mind to catch, so it seems like Scratch is skipping to the last phrase.\nThis is one of the important aspects of learning to program - the computer’s understanding of our instructions is exacting, and does not necessarily line up with what we might expect if we gave the same instructions to another human being. We have to learn to adjust our understanding to how a computer operates to be able to write programs that do what we want.",
-    "description": "The term sequence in computational thinking refers to issuing one command after another, to be carried out in order. In Scratch, this is represented by a stack of blocks that have been snapped together. Each stack starts with a hat block (so called becuase it resembles a baseball cap) that identifies the conditions that will start the execution (the carrying out) of that sequences’s commands. You will learn more about hat blocks in the events chapter, but for now we’ll only use the ‘Green Flag Clicked’ block:",
-    "tags": [],
-    "title": "Block Sequences",
-    "uri": "/intro-scratch/05-extra/01-block-sequence/"
-  },
-  {
     "breadcrumb": "Scratch Blocks \u003e Motion Blocks",
     "content": "The motion blocks control the motion of the sprite across the stage. In working with these blocks, it is important to remember the coordinate system Scratch uses, which is based on Cartesian coordinates. These consist of two coordinates, the first is along the x-axis (horizontal), and the second along the y-axis (vertical). The boundary of the stage is from -240 to 240 on the x-axis, and -180 to 180 on the y-axis. This can be seen in the image below:\nSprites are allowed to move anywhere on the stage, but cannot move off it (if you want your sprite to disappear off-stage, use the hide block from the Looks palette). Attempting to change a coordinate to a value off-stage will instead set it to the maximum/minimum value.\nIn addition to specifying movement using coordinates, sprites can also be moved forward. Each sprite has a direction it is facing, measured as an angle between 0 and 360 degrees. The angle 0 is straight up, and positive rotations are clockwise. Rather than specifying positive and negative rotations on blocks, Scratch uses a clockwise and counterclockwise arrow to indicate a change in direction.\nInfo While Scratch adopts the familiar Cartesian coordinate system from mathematics, it does not adopt the unit circle (with the angle 0 aligning with the postive x-axis and positive rotations in a counter-clockwise direction). Instead it adopts clockface-based angles, with 0 degrees corresponding to 12-o’clock position, and positive rotation matching in the direction of clock hand movement.",
     "description": "The motion blocks control the motion of the sprite across the stage. In working with these blocks, it is important to remember the coordinate system Scratch uses, which is based on Cartesian coordinates. These consist of two coordinates, the first is along the x-axis (horizontal), and the second along the y-axis (vertical). The boundary of the stage is from -240 to 240 on the x-axis, and -180 to 180 on the y-axis.",
@@ -353,11 +443,19 @@ var relearn_search_index = [
   },
   {
     "breadcrumb": "Scratch Blocks",
-    "content": "As a block-based programming langauge, Scratch programs are built from snippets of code represented by blocks. These blocks have a quasi-puzzle piece shapes that helps indicate how they can fit together. Consider this example program that counts to ten:\nHere we see a number of different blocks snapped tightly together to form a complete, simple program. This chapter will indroduce the various blocks available in Scratch, as well as explain thier basic functionality and use.",
-    "description": "As a block-based programming langauge, Scratch programs are built from snippets of code represented by blocks. These blocks have a quasi-puzzle piece shapes that helps indicate how they can fit together. Consider this example program that counts to ten:\nHere we see a number of different blocks snapped tightly together to form a complete, simple program. This chapter will indroduce the various blocks available in Scratch, as well as explain thier basic functionality and use.",
+    "content": "As a block-based programming langauge, Scratch programs are built from snippets of code represented by blocks. These blocks have a quasi-puzzle piece shapes that helps indicate how they can fit together. Consider this example program that counts to ten:\nHere we see a number of different blocks snapped tightly together to form a complete, simple program. This chapter will introduce the various blocks available in Scratch, as well as explain thier basic functionality and use.",
+    "description": "As a block-based programming langauge, Scratch programs are built from snippets of code represented by blocks. These blocks have a quasi-puzzle piece shapes that helps indicate how they can fit together. Consider this example program that counts to ten:\nHere we see a number of different blocks snapped tightly together to form a complete, simple program. This chapter will introduce the various blocks available in Scratch, as well as explain thier basic functionality and use.",
     "tags": [],
     "title": "Introduction",
     "uri": "/intro-scratch/02-blocks/01-introduction/"
+  },
+  {
+    "breadcrumb": "CT Concepts",
+    "content": "At the core, a program is simply a step-by-step set of instructions the computer will carry out. In Scratch, these instructions take the form of blocks, which snap together in a sequence, which we typically refer to as a block stack (or stack).\nFor a sequence to be executed (carried out), it must start with a “hat” block, so called because its shape resembles a baseball cap:\nThis block indicates the conditions that will trigger the execution of blocks that are snapped into place beneath it. The commands of these other blocks will be carried out in order - a sequence. For example, the following script will play the first two measures of the tune “Hot Cross Buns”:\nClicking the green flag will play each note in the order they appear in the sequence. You can see the full program here or run it below:\nIf we leave off the hat block, then the sequence of blocks will never be executed. We call a stack without a hat block an orphan stack.\nOften, programmers will leave a sequence of blocks that they may come back to work on later orphaned intentionally, as they might comment out sections of code in another programming langauge. However, best practice is to remove orphaned code once you are sure it is no longer needed, as having many orphan stacks makes the script harder to read and understand.\nYou can have multiple stacks in a Scratch program, and each will execute when its starting condition is met. For example, if two stacks both start with a when flag clicked block, both will run when the green flag is clicked. This is covered in more detail in the paralleism section.",
+    "description": "At the core, a program is simply a step-by-step set of instructions the computer will carry out. In Scratch, these instructions take the form of blocks, which snap together in a sequence, which we typically refer to as a block stack (or stack).\nFor a sequence to be executed (carried out), it must start with a “hat” block, so called because its shape resembles a baseball cap:\nThis block indicates the conditions that will trigger the execution of blocks that are snapped into place beneath it.",
+    "tags": [],
+    "title": "Sequence",
+    "uri": "/intro-scratch/02-ct-concepts.md/01-sequence/"
   },
   {
     "breadcrumb": "Introduction",
@@ -384,20 +482,20 @@ var relearn_search_index = [
     "uri": "/intro-scratch/02-blocks/02-block-shapes/"
   },
   {
-    "breadcrumb": "",
-    "content": "The term sequence in computational thinking refers to issuing one command after another, to be carried out in order. In Scratch, this is represented by a stack of blocks that have been snapped together. Each stack starts with a hat block (so called becuase it resembles a baseball cap) that identifies the conditions that will start the execution (the carrying out) of that sequences’s commands. You will learn more about hat blocks in the events chapter, but for now we’ll only use the ‘Green Flag Clicked’ block:\nThis particular block will start the execution of a stack of blocks beneath it when the Green Flag button on the stage is clicked (like the play button on a DVD player). Notice the tab projecting out of the bottom of the block? We can connect any block with a corresponding divot in its top. For example, we can connect a ‘Say’ block:\nAnd when we click the green flag, this script will play, making Scratch the Cat (or whichever sprite this code belongs to) say the phrase “Hello”:\nWe can add any number of blocks to a block sequence, and they will be executed one at a time. We could expand the previous example to be:\nAnd we might expect the result to look like this:\nBut if you create the above program in Scratch, you will only see the Scratch Cat speak phrase “I hope you enjoy learning to program”. Why?\nActually, Scratch is making Scratch the Cat say all three phrases, and doing so one after the next. But it carries out these instrucions as quickly as it can. That means that the phrases “Hello!” and “Welcome to Scratch” are displayed on-screen for exactly 1 frame each (about 1/60th of a second for most computers). This is too fast for the human eye and mind to catch, so it seems like Scratch is skipping to the last phrase.\nThis is one of the important aspects of learning to program - the computer’s understanding of our instructions is exacting, and does not necessarily line up with what we might expect if we gave the same instructions to another human being. We have to learn to adjust our understanding to how a computer operates to be able to write programs that do what we want.",
-    "description": "The term sequence in computational thinking refers to issuing one command after another, to be carried out in order. In Scratch, this is represented by a stack of blocks that have been snapped together. Each stack starts with a hat block (so called becuase it resembles a baseball cap) that identifies the conditions that will start the execution (the carrying out) of that sequences’s commands. You will learn more about hat blocks in the events chapter, but for now we’ll only use the ‘Green Flag Clicked’ block:",
-    "tags": [],
-    "title": "Block Stacks",
-    "uri": "/intro-scratch/05-extra/02-block-stacks/"
-  },
-  {
     "breadcrumb": "Introduction",
     "content": "In 2006, Jeanette Wing published a number of papers arguing Computational Thinking - problem-solving approaches utilizing the power of compututers - were increasingly a fundamental skill needed by all students. She built her case on the recognition of the transformative effect computing technology and computational approaches were having on all disciplines in the late 20th and early 21st century (and not just the STEM fields)1. This helped inspire a national push to incorporate computational thinking into K-12 education as a new fundamental skill.\nBut what exactly is computational thinking? Essentially, it is solving problems like a computer scientist would. Typically this would mean studying a problem, then developing a program that can be run on a computer to solve it. Thus, computational thinking and programming are intractably linked, as one of the primary tools a computer scientist uses to solve problems is a programming language. But programming itself is not equivalent to computational thinking, no more than addition and subtraction are equivalent to mathematics, rather, programming is a tool utilized in computational thinking to express a problem-solving approach, much like addition and subtraction are used in mathematical equations. The ISTE and CSTA have developed an “Operational Definition of Computational Thinking for K-12 Education”2 that can be useful for an aspiring teacher:\nComputational thinking (CT) is a problem-solving process that includes (but is not limited to) the following characteristics:\nFormulating problems in a way that enables us to use a computer and other tools to help solve them. Logically organizing and analyzing data Representing data through abstractions such as models and simulations Automating solutions through algorithmic thinking (a series of ordered steps) Identifying, analyzing, and implementing possible solutions with the goal of achieving the most efficient and effective combination of steps and resources Generalizing and transferring this problem solving process to a wide variety of problems These skills are supported and enhanced by a number of dispositions or attitudes that are essential dimensions of CT. These dispositions or attitudes include:\nConfidence in dealing with complexity Persistence in working with difficult problems Tolerance for ambiguity The ability to deal with open ended problems The ability to communicate and work with others to achieve a common goal or solution Note that much of computational thinking is not specific to computer science - many are skills and dispositions used across multiple discipines. But an overreaching aspect of computational thinking is that how problems are formulated, data is organized, and models and simulations are represented are explicitly tied to the computer we are using to solve them.\nWing, Jeanette, “Computational Thinking”, Communications of the ACM, March 2006/Vol. 49, No. 3 ↩︎\nISTE and CSTA, 2011. “Operational Definition of Computational Thinking for K-12 Education” ↩︎",
     "description": "In 2006, Jeanette Wing published a number of papers arguing Computational Thinking - problem-solving approaches utilizing the power of compututers - were increasingly a fundamental skill needed by all students. She built her case on the recognition of the transformative effect computing technology and computational approaches were having on all disciplines in the late 20th and early 21st century (and not just the STEM fields)1. This helped inspire a national push to incorporate computational thinking into K-12 education as a new fundamental skill.",
     "tags": [],
     "title": "Computational Thinking",
     "uri": "/intro-scratch/01-introduction/02-computational-thinking/"
+  },
+  {
+    "breadcrumb": "CT Concepts",
+    "content": "Strings\nNumbers\nBooleans\nVariables\nLists",
+    "description": "Strings\nNumbers\nBooleans\nVariables\nLists",
+    "tags": [],
+    "title": "Data",
+    "uri": "/intro-scratch/02-ct-concepts.md/02-data/"
   },
   {
     "breadcrumb": "Scratch Blocks \u003e Motion Blocks",
@@ -432,6 +530,14 @@ var relearn_search_index = [
     "uri": "/intro-scratch/01-introduction/03-ct-framework/"
   },
   {
+    "breadcrumb": "CT Concepts",
+    "content": "String Operators\nMathematical Operators\nBoolean Operators",
+    "description": "String Operators\nMathematical Operators\nBoolean Operators",
+    "tags": [],
+    "title": "Operators",
+    "uri": "/intro-scratch/02-ct-concepts.md/03-operators/"
+  },
+  {
     "breadcrumb": "Scratch Blocks \u003e Motion Blocks",
     "content": " The turn clockwise () degrees rotates the sprite in a clockwise direction by the specified number of degrees.\nNotes In Scratch, the positive direction of rotation is clockwise In Scratch, and angle of 0 is straight up A Sprite’s appearance and direction may not correspond if it’s costume was not drawn facing upwards ",
     "description": " The turn clockwise () degrees rotates the sprite in a clockwise direction by the specified number of degrees.\nNotes In Scratch, the positive direction of rotation is clockwise In Scratch, and angle of 0 is straight up A Sprite’s appearance and direction may not correspond if it’s costume was not drawn facing upwards ",
@@ -446,6 +552,22 @@ var relearn_search_index = [
     "tags": [],
     "title": "Block-Based Programming",
     "uri": "/intro-scratch/01-introduction/04-programming/"
+  },
+  {
+    "breadcrumb": "CT Concepts",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Conditionals",
+    "uri": "/intro-scratch/02-ct-concepts.md/04-conditionals/"
+  },
+  {
+    "breadcrumb": "Design Patterns",
+    "content": "Sprites in Scratch maintain thier state - which means that if the program was stopped with a sprite in a certain position, the next time the program is run, it will begin in that position. But for many Scratch projects, we want every sprite to start in a known position, regardless of where it last was.\nOne common pattern to accomplish this using messages is the Get Ready and Go design pattern. This pattern helps ensure that all sprites start at the intended position on stage, with the desired visibility, size, and effects before the program continues.\nIn this design pattern, a broadcast () and wait block triggers the initialization sequence by broadcasting a Get Ready message, and waits until all when I receive () stacks finish their work before using a broadcast () block to send a Go message (note, the names of the messages can be anything, “Get Ready” and “Go” were chosen for the ease of understanding thier meaning). The script looks like:\nThis script is often placed in the Stage (as it is more central to the program than sprites). Then, individual sprites (and the stage) can listen for the two messages with when I recieve () to trigger thier corresponding Get Ready and Go routines, i.e.:",
+    "description": "Sprites in Scratch maintain thier state - which means that if the program was stopped with a sprite in a certain position, the next time the program is run, it will begin in that position. But for many Scratch projects, we want every sprite to start in a known position, regardless of where it last was.\nOne common pattern to accomplish this using messages is the Get Ready and Go design pattern.",
+    "tags": [],
+    "title": "Get Ready and Go",
+    "uri": "/intro-scratch/04-design-patterns/04-get-ready-go/"
   },
   {
     "breadcrumb": "Scratch Blocks",
@@ -480,12 +602,28 @@ var relearn_search_index = [
     "uri": "/intro-scratch/02-blocks/05-looks/"
   },
   {
+    "breadcrumb": "CT Concepts",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "Loops",
+    "uri": "/intro-scratch/02-ct-concepts.md/05-loops/"
+  },
+  {
     "breadcrumb": "Introduction",
     "content": "The Scratch editor consists of several parts, pictured below:\nStage Scratch is a multimedia programming environment, which means unlike most programming languages that write output to a text console, it displays its output graphically, as well as being able to play sounds through the computer’s speakers. The stage is where the program’s graphical output is displayed. This includes a background which can be changed (called the “Backdrop”), much like set dressing of a theatrical stage.\nThe “actors” on the stage are Sprites - a term that was borrowed from 2d computer games. A sprite is simply an image controlled by the program’s code. Sprites can be moved around the stage, and animated by switching the image they display (their “Costume”). Sprites can also display text in speech or thought bubbles, be scaled, have different graphical effects applied to them, and even be cloned. We’ll explore each of these concepts and how they correspond to ideas in Computer Science in future lessons.\nThe stage has a coordinate system which is based on Cartesian coordinates. It has an x- and y-axis, with origin in the center of the stage. The x-axis increases to the right, and decreases to the left, with the right edge of the stage at 240 and the left edge at -240. The y-axis increases in an upward direction and decreases in the downward, with the top of the stage at 180, and the bottom at -240. An angle of 0 points along the positive x-axis, and rotates counter-clockwise to 360 degrees.\nThe green flag at the top of the Stage acts like a play button on a DVD player - it runs the program. And the red stop sign stops the program. The other buttons switch between a small stage, large stage, or full-screen stage view.\nA Scratch program can be shared by embedding it in a website - when this is done, it often is displayed in a player-only mode, where all that is shown is the stage.\nSprite Pane The Sprite Pane allows you to select and display details about the sprites and the stage. The currently selected sprite (or stage) will have a thick blue outline around it. The details displayed at the top of the Sprite Pane include the name of the sprite, it’s x and y position on the stage, buttons to toggle its visibility, and its current size (as a percentage), and its rotation (an angle measured in degrees). Each of these is editable - you can change them by directly typing into the corresponding text bubble or clicking the show/hide button.\nCode Area The Code Area is where the code to control the currently selected sprite or the stage is displayed. A small semi-translucent image of the sprite/stage appears in the upper-right corner to help inform you which sprite (or the stage) you are currently editing. The bottom-left corner includes buttons for zooming in and out, while the button displaying the equal sign (=) will center the code in the Code Area, changing the zoom level as need to ensure that all code is visible.\nBlock Palette The Block Palette displays all of the blocks that are available to write your programs with. You write programs by dragging blocks from the Block Palette into the Coding Area and snapping them together. The available blocks are organized thematically (Motion, Looks, Sound, Events, Control, Sensing, Operators, Variables, and My Blocks), and clicking one of the categories on the far right will scroll to that block’s category in the Block Palette. Note too that all blocks from a category are the same color. We will discuss the specific blocks in much more detail in future lessons.\nIn the the lower-right corner of the Block Palette is a button that allows you to load Scratch Extensions, which provide additional functionality in Scratch. We’ll discuss some of them soon.\nHeader The header provides menu options for saving and loading projects, changing the language used by Scratch on its blocks and editor, and to display tutorials.\nOn the right side of the header are links for interacting with your account on the Scratch website, scratch.mit.edu. These will not appear in the desktop version or Codio.\nUnderneath this header are three tabs, Code, Costumes, and Sounds. We’ll explore these in future lessons as well - for now, we’ll focus on the Code tab.",
     "description": "The Scratch editor consists of several parts, pictured below:\nStage Scratch is a multimedia programming environment, which means unlike most programming languages that write output to a text console, it displays its output graphically, as well as being able to play sounds through the computer’s speakers. The stage is where the program’s graphical output is displayed. This includes a background which can be changed (called the “Backdrop”), much like set dressing of a theatrical stage.",
     "tags": [],
     "title": "Scratch Editor",
     "uri": "/intro-scratch/01-introduction/05-scratch-editor/"
+  },
+  {
+    "breadcrumb": "CT Concepts",
+    "content": "In programming, an event triggers the execution of code. You’ve already worked extensively with one event in Scratch, the when flag clicked block:\nClicking the green flag button on the stage triggers the hat block to execute.\nA related event is triggered when you click the red stop sign button. That button stops all running scripts, effectively stopping the program. You can also trigger this event with the stop () block:\nIn addition to stopping all scripts in the program, the stop () block can be used to stop the other scripts of this sprite, or the specific script it appears in.\nThere are many other events and blocks that interact with them in Scratch. Let’s examine each.\nUser Events User events are events triggered in some way by the user. The green flag is the most common example - clicking it will execute any stack of blocks starting with a when flag clicked block:\nLikewise, the when () key pressed block will execute its block stack when the specified key is pressed. You can set it to the arrow keys, letter keys, space, or ‘any’ key:\nYou can also use the when this sprite clicked block to trigger a stack of blocks when the user clicks on its sprite.\nFinally, a unique event in Scratch is represented by the when [loudness] \u003e () which will trigger when a microphone attached to the computer detects sound louder than the specified threshold:\nTimer Events Scratch includes a timer that starts when the green flag is clicked, and counts up in seconds. Its value can be accessed with the timer reporter block, and it can be restarted with the reset timer block. Both are found in the Sensing palette.\nIn addition to these two blocks, the when [timer v] \u003e () block can be used to trigger a block stack when the timer reaches a certain value, i.e. 10 seconds:\nBackdrop Events The when backdrop switches to () block triggers when the backdrop is changed to the selected value:\nThis can be especially helpful when a program is organized as a state machine with each backdrop representing a different state. One example of this approach would be an animated storybook with each backdrop serving as a new “page” of the story.\nClone Events When a new clone is created it executes any block stacks starting with the when I start as a clone hat block:\nBroadcast Events Finally (and perhaps most powerfully), the programmer can create custom events in Scratch using the broadcast () or broadcast () and wait blocks. These blocks send a message that executes any corresponding when I receive () hat blocks:\nA new message can be created by selecting the “New message” option in any of these block’s selection menus:\nThe broadcast () block sends the corresponding message and immediately continues executing blocks in its own stack:\nIn contrast, the broadcast () and wait sends the message and then pauses its stack’s execution until all when I recieve () stacks have finished executing:\nNote this does not necessarily mean the entire stacks are executed before the pause ends, as the other stacks will pause at wait () seconds and at each loop iteration. See the parallelism section for more details.",
+    "description": "In programming, an event triggers the execution of code. You’ve already worked extensively with one event in Scratch, the when flag clicked block:\nClicking the green flag button on the stage triggers the hat block to execute.\nA related event is triggered when you click the red stop sign button. That button stops all running scripts, effectively stopping the program. You can also trigger this event with the stop () block:",
+    "tags": [],
+    "title": "Events",
+    "uri": "/intro-scratch/02-ct-concepts.md/06-events/"
   },
   {
     "breadcrumb": "Scratch Blocks \u003e Motion Blocks",
@@ -518,6 +656,14 @@ var relearn_search_index = [
     "tags": [],
     "title": "glide () secs to ()",
     "uri": "/intro-scratch/02-blocks/04-motion/07-glide-secs-to/"
+  },
+  {
+    "breadcrumb": "CT Concepts",
+    "content": "Parallelism refers to doing more than one thing in parallel (at the same time). When we have two stacks of blocks both starting with a when flag is clicked, these both trigger thier execution when the green flag button is clicked, and appear to execute at the same time. Likewise, two stacks starting with when I recieve () blocks listening for the same message will be triggered at the same time.\nParallism exists between stacks of blocks in the same Sprite, and also between all Sprites (and the Stage) - essentially any time an event occurs, each corresponding hat block will execute.\nOrdering and Synchronization However, there is some order to parallel actions in Scratch. Consider these scripts:\nThe sprite containing them can only display one of the speech/thought baloons at a time, so one of these will take precidence over the other. Generally, they will execute in the order the stacks were created, but there is no guarantee of this.\nEstablishing an order to script execution is called synchronization, and there are several techiques we can employ.\nYielding in a Stack One of the easiest is to add a wait (0) seconds block in the stack we want to go last. A wait block pauses the execution of the current stack, and allows other stacks to finish their execution. Setting the seconds to 0 means that the pause is infantesmally small, but it does allow the other block stacks to run first (we call this a yield in computer science). In Scratch, loops also yield after each iteration.\nWhile this approach works, it is not exactly intuitive, and it only ensures ordering between two stacks. However, it is important to know, as it can help understand the behavior of parallel stacks.\nMessage-based Synchronization A far more powerful approach is using broadcast () and when I recieve () blocks to trigger stacks in sequence. For example, the following script first executes the say () for () seconds block, then triggers the think () for () seconds block:\nWhile the example is trivial, this appraoch to synchronizing parallel stacks is extremely powerful. You can have multiple stacks in multiple sprites triggered by each message, and you can define as many messages as you need.\nOne common design pattern using this approach is the Get Ready and Go Design Pattern, which helps ensure all sprites start in the expected state when a Scratch program is run.",
+    "description": "Parallelism refers to doing more than one thing in parallel (at the same time). When we have two stacks of blocks both starting with a when flag is clicked, these both trigger thier execution when the green flag button is clicked, and appear to execute at the same time. Likewise, two stacks starting with when I recieve () blocks listening for the same message will be triggered at the same time.",
+    "tags": [],
+    "title": "Parallelism",
+    "uri": "/intro-scratch/02-ct-concepts.md/07-parallelism/"
   },
   {
     "breadcrumb": "Scratch Blocks",

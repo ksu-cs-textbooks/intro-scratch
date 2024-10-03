@@ -1,0 +1,462 @@
+
+
+
+
+
+  
+	
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+	  
+
+  
+	
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+	  
+
+  
+	
+		
+		
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CT Concepts :: Introduction to Scratch</title>
+    <link>https://textbooks.cs.ksu.edu/intro-scratch/02-ct-concepts.md/</link>
+    <description>The Scratch Computational Thinking Concepts Explained</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://textbooks.cs.ksu.edu/intro-scratch/02-ct-concepts.md/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sequence</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-ct-concepts.md/01-sequence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-ct-concepts.md/01-sequence/</guid>
+      <description>At the core, a program is simply a step-by-step set of instructions the computer will carry out. In Scratch, these instructions take the form of blocks, which snap together in a sequence, which we typically refer to as a block stack (or stack).&#xA;For a sequence to be executed (carried out), it must start with a “hat” block, so called because its shape resembles a baseball cap:&#xA;This block indicates the conditions that will trigger the execution of blocks that are snapped into place beneath it.</description>
+    </item>
+    <item>
+      <title>Data</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-ct-concepts.md/02-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-ct-concepts.md/02-data/</guid>
+      <description>Strings&#xA;Numbers&#xA;Booleans&#xA;Variables&#xA;Lists</description>
+    </item>
+    <item>
+      <title>Operators</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-ct-concepts.md/03-operators/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-ct-concepts.md/03-operators/</guid>
+      <description>String Operators&#xA;Mathematical Operators&#xA;Boolean Operators</description>
+    </item>
+    <item>
+      <title>Conditionals</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-ct-concepts.md/04-conditionals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-ct-concepts.md/04-conditionals/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Loops</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-ct-concepts.md/05-loops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-ct-concepts.md/05-loops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Events</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-ct-concepts.md/06-events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-ct-concepts.md/06-events/</guid>
+      <description>In programming, an event triggers the execution of code. You’ve already worked extensively with one event in Scratch, the when flag clicked block:&#xA;Clicking the green flag button on the stage triggers the hat block to execute.&#xA;A related event is triggered when you click the red stop sign button. That button stops all running scripts, effectively stopping the program. You can also trigger this event with the stop () block:</description>
+    </item>
+    <item>
+      <title>Parallelism</title>
+      <link>https://textbooks.cs.ksu.edu/intro-scratch/02-ct-concepts.md/07-parallelism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://textbooks.cs.ksu.edu/intro-scratch/02-ct-concepts.md/07-parallelism/</guid>
+      <description>Parallelism refers to doing more than one thing in parallel (at the same time). When we have two stacks of blocks both starting with a when flag is clicked, these both trigger thier execution when the green flag button is clicked, and appear to execute at the same time. Likewise, two stacks starting with when I recieve () blocks listening for the same message will be triggered at the same time.</description>
+    </item>
+  </channel>
+</rss>
