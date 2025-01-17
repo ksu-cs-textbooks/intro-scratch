@@ -433,17 +433,17 @@ The total number of units moved is the product of the number of repeats and the 
     <link href="/intro-scratch/04-design-patterns/03-animated-move/index.print.html" rel="alternate" type="text/html" title="Animated Move :: Introduction to Scratch">
     <link href="/intro-scratch/04-design-patterns/03-animated-move/tele.html" rel="alternate" type="text/html" title="Animated Move :: Introduction to Scratch">
     <link href="/intro-scratch/04-design-patterns/03-animated-move/embed.html" rel="alternate" type="text/html" title="Animated Move :: Introduction to Scratch">
-    <link href="/intro-scratch/css/fontawesome-all.min.css?1727991356" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/intro-scratch/css/fontawesome-all.min.css?1727991356" rel="stylesheet"></noscript>
-    <link href="/intro-scratch/css/nucleus.css?1727991356" rel="stylesheet">
-    <link href="/intro-scratch/css/auto-complete.css?1727991356" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/intro-scratch/css/auto-complete.css?1727991356" rel="stylesheet"></noscript>
-    <link href="/intro-scratch/css/perfect-scrollbar.min.css?1727991356" rel="stylesheet">
-    <link href="/intro-scratch/css/fonts.css?1727991356" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/intro-scratch/css/fonts.css?1727991356" rel="stylesheet"></noscript>
-    <link href="/intro-scratch/css/theme.css?1727991356" rel="stylesheet">
-    <link href="/intro-scratch/css/theme-auto.css?1727991356" rel="stylesheet" id="R-variant-style">
-    <link href="/intro-scratch/css/chroma-auto.css?1727991356" rel="stylesheet" id="R-variant-chroma-style">
-    <link href="/intro-scratch/css/variant.css?1727991356" rel="stylesheet">
-    <link href="/intro-scratch/css/print.css?1727991356" rel="stylesheet" media="print">
-    <script src="/intro-scratch/js/variant.js?1727991356"></script>
+    <link href="/intro-scratch/css/fontawesome-all.min.css?1737134717" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/intro-scratch/css/fontawesome-all.min.css?1737134717" rel="stylesheet"></noscript>
+    <link href="/intro-scratch/css/nucleus.css?1737134717" rel="stylesheet">
+    <link href="/intro-scratch/css/auto-complete.css?1737134717" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/intro-scratch/css/auto-complete.css?1737134717" rel="stylesheet"></noscript>
+    <link href="/intro-scratch/css/perfect-scrollbar.min.css?1737134717" rel="stylesheet">
+    <link href="/intro-scratch/css/fonts.css?1737134717" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/intro-scratch/css/fonts.css?1737134717" rel="stylesheet"></noscript>
+    <link href="/intro-scratch/css/theme.css?1737134717" rel="stylesheet">
+    <link href="/intro-scratch/css/theme-auto.css?1737134717" rel="stylesheet" id="R-variant-style">
+    <link href="/intro-scratch/css/chroma-auto.css?1737134717" rel="stylesheet" id="R-variant-chroma-style">
+    <link href="/intro-scratch/css/variant.css?1737134717" rel="stylesheet">
+    <link href="/intro-scratch/css/print.css?1737134717" rel="stylesheet" media="print">
+    <script src="/intro-scratch/js/variant.js?1737134717"></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
@@ -463,7 +463,7 @@ The total number of units moved is the product of the number of repeats and the 
       window.T_N_results_found = `{1} results found for "{0}"`;
     </script>
     
-    <link href="/intro-scratch/css/custom.css?1727991356" rel="stylesheet">
+    <link href="/intro-scratch/css/custom.css?1737134717" rel="stylesheet">
   </head>
   <body class="mobile-support html disableInlineCopyToClipboard" data-url="/intro-scratch/04-design-patterns/03-animated-move/">
     <div id="R-body" class="default-animation">
@@ -519,12 +519,12 @@ The total number of units moved is the product of the number of repeats and the 
 <h1 id="animated-move">Animated Move</h1>
 
 <p>The <strong>move () steps</strong> immediately moves a sprite the specified number of steps. But what if we want that movement to be slower, animated over time?  The various glide blocks provide smooth movement, but not in the direction the sprite is facing. Instead, we can emulate this movement with a combination of <strong>repeat ()</strong>, <strong>move () steps</strong>, and <strong>wait () seconds</strong> blocks:</p>
-<p><a href="#R-image-29b78a5b614177149fa1040a1bb69027" class="lightbox-link"><img alt="Repeat-Move-Wait design pattern" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/intro-scratch/images/repeat-move-wait.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-29b78a5b614177149fa1040a1bb69027"><img alt="Repeat-Move-Wait design pattern" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/intro-scratch/images/repeat-move-wait.svg"></a></p>
+<p><a href="#R-image-4352353b5e81b4ce9f6bcd6aedbd7ca4" class="lightbox-link"><img alt="Repeat-Move-Wait design pattern" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/intro-scratch/images/repeat-move-wait.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-4352353b5e81b4ce9f6bcd6aedbd7ca4"><img alt="Repeat-Move-Wait design pattern" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/intro-scratch/images/repeat-move-wait.svg"></a></p>
 <p>The total number of units moved is the product of the number of repeats and the movement in the block (i.e. repeating a movement of 2 units five times is $$2 * 5 = 10$$ total units moved). The value of the <strong>wait ()</strong> block determines how fast the sprite moves. A small value (i.e. 0.06, roughly 1/16 a second) will give good results.</p>
 <p>A slighly more sophisticated version adds sprite animaiton, swapping frames each step forward:</p>
-<p><a href="#R-image-572ba10a12e44c178ff6373f34ba1f33" class="lightbox-link"><img alt="Repeat-Move-Wait-Next-Costume" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/intro-scratch/images/repeat-move-wait-next-costume.svg" style=" height: auto; width: auto;"></a>
-<a href="javascript:history.back();" class="lightbox-back" id="R-image-572ba10a12e44c178ff6373f34ba1f33"><img alt="Repeat-Move-Wait-Next-Costume" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/intro-scratch/images/repeat-move-wait-next-costume.svg"></a></p>
+<p><a href="#R-image-e37f5f06bf0eef0b3b09e8e4ed6fe118" class="lightbox-link"><img alt="Repeat-Move-Wait-Next-Costume" class="border lazy lightbox noshadow figure-image" loading="lazy" src="/intro-scratch/images/repeat-move-wait-next-costume.svg" style=" height: auto; width: auto;"></a>
+<a href="javascript:history.back();" class="lightbox-back" id="R-image-e37f5f06bf0eef0b3b09e8e4ed6fe118"><img alt="Repeat-Move-Wait-Next-Costume" class="border lazy lightbox noshadow lightbox-image" loading="lazy" src="/intro-scratch/images/repeat-move-wait-next-costume.svg"></a></p>
 
             <footer class="footline">
               
@@ -569,12 +569,12 @@ The total number of units moved is the product of the number of repeats and the 
         <script>
           var contentLangs=['en'];
         </script>
-        <script src="/intro-scratch/js/auto-complete.js?1727991356" defer></script>
-        <script src="/intro-scratch/js/lunr/lunr.min.js?1727991356" defer></script>
-        <script src="/intro-scratch/js/lunr/lunr.stemmer.support.min.js?1727991356" defer></script>
-        <script src="/intro-scratch/js/lunr/lunr.multi.min.js?1727991356" defer></script>
-        <script src="/intro-scratch/js/lunr/lunr.en.min.js?1727991356" defer></script>
-        <script src="/intro-scratch/js/search.js?1727991356" defer></script>
+        <script src="/intro-scratch/js/auto-complete.js?1737134717" defer></script>
+        <script src="/intro-scratch/js/lunr/lunr.min.js?1737134717" defer></script>
+        <script src="/intro-scratch/js/lunr/lunr.stemmer.support.min.js?1737134717" defer></script>
+        <script src="/intro-scratch/js/lunr/lunr.multi.min.js?1737134717" defer></script>
+        <script src="/intro-scratch/js/lunr/lunr.en.min.js?1737134717" defer></script>
+        <script src="/intro-scratch/js/search.js?1737134717" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation">
         <hr class="padding">
@@ -682,8 +682,8 @@ The total number of units moved is the product of the number of repeats and the 
         </div>
       </div>
     </aside>
-    <script src="/intro-scratch/js/clipboard.min.js?1727991356" defer></script>
-    <script src="/intro-scratch/js/perfect-scrollbar.min.js?1727991356" defer></script>
-    <script src="/intro-scratch/js/theme.js?1727991356" defer></script>
+    <script src="/intro-scratch/js/clipboard.min.js?1737134717" defer></script>
+    <script src="/intro-scratch/js/perfect-scrollbar.min.js?1737134717" defer></script>
+    <script src="/intro-scratch/js/theme.js?1737134717" defer></script>
   </body>
 </html>
